@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wise Nutrition </title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    
+    <link type="text/css" href="css/style.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="css/responsive.css" rel="stylesheet" media="screen" />  
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->  
+</head>
+
+<body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sign In</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="email" class="control-label">Your Email</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="password" class="control-label">Your Password</label>
+            <input type="password" class="form-control" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <input type="submit" name="submit" value="Sign In" />
+        <a href="#" class="fptxt" data-toggle="modal" data-target="#exampleModal2" data-whatever="">Forgot Password? </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Recover Your Password</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="email" class="control-label">Your Email</label>
+            <input type="text" class="form-control" value="" placeholder="Enter Email" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <input type="submit" name="submit" value="Recover Your Password" />
+        <a href="#" class="fptxt" data-toggle="modal" data-target="#exampleModal" data-whatever="" id="recoverbtn">Recover Your Password </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+<div class="headerouter">
+        <div class="topbar">
+           <div class="container">
+           	   <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"> 
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                        </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9"> 
+                      <div class="toprgt">
+                            <ul class="topsocialicon">
+                                 <li><a href="#"></a></li>
+                                 <li><a href="#"></a></li>
+                                 <li><a href="#"></a></li>
+                                 <li><a href="#"></a></li>
+                            </ul>                        
+                            <div class="topsearchbox">
+                                <form name="search" class="">
+                                    <input type="text" name="search" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+                                    <input type="submit" name="search" value="" src="images/search-icon.png" />
+                                </form>
+                            </div>
+                            <ul class="loginregarea">
+                            	<li><a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Login</a></li>
+                                <li><a href="register.html" target="_blank">Register </a></li>
+                            </ul>
+                      </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="container">
+           <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">      
+                        <nav>
+                              <div class="navbar navbar-default">
+                                    <div class="navbar-header">
+                                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                        <span class="sr-only">Main navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                      </button>
+                                    </div>
+                                    <div id="navbar" class="navbar-collapse collapse">
+                                          <div class="nav navbar-nav">
+                                             <div>
+                                                <ul>
+                                                   <li class="selected"><a href="#">HOME </a></li>            
+                                                   <li><a href="#">ABOUT  WISE NUTRITION </a></li>           
+                                                   <li><a href="#">SUCCESS STORIES </a></li>           
+                                                   <li><a href="#">SUPER FOODS </a></li>            
+                                                   <li><a href="#">Blog </a></li>           
+                                                   <li><a href="#">CONTACT </a></li>         
+                                                </ul>
+                                             </div>
+                                          </div>
+                                    </div><!--/.nav-collapse -->
+                              </div>
+                        </nav>
+                  </div>
+           </div>
+   </div>
+</div>   
+
+
+   
+<div class="slider_part">
+	<div class="slider">
+				<div class="flexslider">
+				          <ul class="slides">
+				            	<li>
+				  	    	    	<img src="images/slider_1.jpg" alt="slider1" />
+                                    <div class="banouter">
+                                       <div class="bandescout">
+                                        	<div class="container">
+                                            	<div class="row">
+                                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                                                      <h2>Honest Weight Loss </h2>
+                                                      <h3>THROUGH WISE NUTRITION </h3>
+                                                      <h4><span>II</span> Customised Meal Plans  </h4>
+                                                      <h4><span>II</span> Super Food Kits  </h4>
+                                                      <h4><span>II</span> Mentoring </h4>
+                                                      <div class="btnarea"><a href="#">READ MORE</a></div>
+                                                  </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                      </div>	
+				  	    		</li>
+				  	    		<li>
+				  	    	    	<img src="images/slider_2.jpg" alt="slider2" />
+                                    <div class="banouter">
+                                       <div class="bandescout">
+                                        	<div class="container">
+                                            	<div class="row">
+                                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                                                      <h2>Honest Weight Loss </h2>
+                                                      <h3>THROUGH WISE NUTRITION </h3>
+                                                      <h4><span>II</span> Customised Meal Plans  </h4>
+                                                      <h4><span>II</span> Super Food Kits  </h4>
+                                                      <div class="btnarea"><a href="#">READ MORE</a></div>
+                                                  </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                      </div>	
+				  	    		</li>
+				          </ul>
+				</div>				        
+		</div>   	
+</div>
+
+        
+    
+<div class="boxarea">
+   <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+               <h2>Services <strong>Offered</strong></h2>
+               <div class="row">
+                   		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic1.jpg" alt="" /></div></div>
+                                <h4>WEight Loss </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>
+                   	   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic2.jpg" alt="" /></div></div>
+                                <h4>Pregnancy Diet </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>
+                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic3.jpg" alt="" /></div></div>
+                                <h4>Blood Pressure care </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>
+                   		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic4.jpg" alt="" /></div></div>
+                                <h4>diabetic diet </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>
+                   	   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic5.jpg" alt="" /></div></div>
+                                <h4>Health snacks </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>
+                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percirclearea">
+                                <div class="percircleouter"><div class="percircle"><img src="images/service_pic6.jpg" alt="" /></div></div>
+                                <h4>fitness & exercise </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span>READ MORE </span>
+                            </a>
+                  	   </div>                            
+               </div>
+           </div>
+        </div>
+      </div>         
+    </div>
+    
+    
+    
+<div class="csarea">
+   <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+               <h2>Our Concern is Your <span>Success</span></h2>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text.</p>
+               <div class="row">
+                   		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percsarea">
+                                <div class="iconareaouter"><div class="csiconarea"><span class="iconone"></span></div></div>
+                                <h4>Strategy </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </a>
+                  	   </div>  
+                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percsarea">
+                                <div class="iconareaouter"><div class="csiconarea"><span class="icontwo"></span></div></div>
+                                <h4>Resources </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </a>
+                  	   </div>  
+                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       		<a href="#" class="percsarea">
+                                <div class="iconareaouter"><div class="csiconarea"><span class="iconthree"></span></div></div>
+                                <h4>Success </h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </a>
+                  	   </div>                        
+               </div>
+           </div>
+        </div>
+    </div>         
+</div>    
+
+
+<div class="bgimgarea">
+   <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+               <h2>No Weight Loss Pills, No machines, <br />
+No Lies. Only <span>Wise Nutrition</span> Through <br />
+<strong>Real Food!</strong></h2>
+               <a href="#">Book a Free Home Consultation <img src="images/banner_btn.png" alt="" /></a>
+          </div>
+       </div>
+   </div>
+</div>  
+
+
+<div class="partnerouter">
+ <div class="partnerarea">
+    <div class="container">
+        <div class="row">
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic1.png" alt="" /></div>     
+               </div>
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic2.png" alt="" /></div>     
+               </div>
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic3.png" alt="" /></div>     
+               </div>
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic4.png" alt="" /></div>     
+               </div>
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic2.png" alt="" /></div>  
+               </div>
+               <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
+                   <div class="part-box"><img src="images/partner_pic5.png" alt="" /></div>     
+               </div>
+       </div>
+    </div>
+  </div>
+</div> 
+
+       
+    
+<div class="testimoouter">
+    <div class="container">
+            <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     <h2>What Our <span>Client Say</span></h2>
+                     <div class="testimoarea">
+                         <div id="nav-01" class="crsl-nav">
+                            <a href="#" class="previous">&laquo; Previous</a>
+                            <a href="#" class="next">Next &raquo;</a>                           
+                         </div>
+                         <div class="gallery gallery-01 crsl-items" data-navigation="nav-01" style="margin-top:-10px">
+                             <div class="crsl-wrap">
+                                                    <figure class="crsl-item">
+                                                            <p><span>"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span>"</span></p>
+                                                            <h3>~  &nbsp; Lorem Ipsum is simply &nbsp;  ~</h3>
+                                                            <div class="testimoimgarea"><img src="images/client_pic1.jpg" alt="" /></div>
+                                                    </figure>
+                                                </div>
+                             <div class="crsl-wrap">
+                                                    <figure class="crsl-item">
+                                                            <p><span>"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span>"</span></p>
+                                                            <h3>~  &nbsp; Lorem Ipsum is simply &nbsp;  ~</h3>
+                                                            <div class="testimoimgarea"><img src="images/client_pic1.jpg" alt="" /></div>
+                                                    </figure>
+                                                </div>
+                             <div class="crsl-wrap">
+                                                    <figure class="crsl-item">
+                                                            <p><span>"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span>"</span></p>
+                                                            <h3>~  &nbsp; Lorem Ipsum is simply &nbsp;  ~</h3>
+                                                            <div class="testimoimgarea"><img src="images/client_pic1.jpg" alt="" /></div>
+                                                    </figure>
+                                                </div>                   
+                         </div> 
+                     </div>
+                 </div>
+            </div> 
+    </div>
+</div> 
+
+
+
+<div class="contactarea">
+  <div class="container">
+     <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+            <h3>You can GET in TOUCH easily </h3>
+            <p>Just write something in the right side box </p>
+            <div class="map"><img src="images/map.jpg" alt="" /></div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
+           <div class="inputarea"> 
+             <form name="contact form" method="post" action="">
+             	<input type="text" name="name" value="Name" onfocus="if(this.value=='Name')this.value='';" onblur="if(this.value=='')this.value='Name';" />
+             	<input type="text" name="name" value="PHONE" onfocus="if(this.value=='PHONE')this.value='';" onblur="if(this.value=='')this.value='PHONE';" />
+             	<input type="text" name="name" value="EMAIL" onfocus="if(this.value=='EMAIL')this.value='';" onblur="if(this.value=='')this.value='EMAIL';" />
+             	<textarea rows="5" cols="5" value="" onfocus="if(this.value=='MESSAGE')this.value='';" onblur="if(this.value=='')this.value='MESSAGE';">MESSAGE</textarea>
+             	<input type="submit" name="search" value="SEND MESSAGE" />
+             </form>
+           </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+            <h4>Location Details </h4>
+            <h5>Address: 	       
+                <span>Lorem Ipsum is simply dummy 	   			      
+                text of the printing and 						      
+                typesetting industry </span>
+            </h5>
+            <h5>Telephone:        
+                <span>+01 (91) 1234-5678 </span>
+            </h5>
+            <h5>Fax:		              
+                <span>+01 (91) 1234-5678 </span>
+            </h5>
+            <h5>Website: 		              
+                <span><a href="#">http://www.yourwebsite.com </a></span>
+            </h5>
+        </div>
+     </div>
+   </div>
+</div>     
+     
+     
+     
+<footer class="footerbg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+                    <p>Copyright &copy; 2017 | <a href="#">wise nutrition</a>. All rights reserved </p>    
+                    <ul class="ftr-socialicons">
+                       <li><a href="#"></a></li>
+                       <li><a href="#"></a></li>
+                       <li><a href="#"></a></li>
+                       <li><a href="#"></a></li>
+                       <li><a href="#"></a></li>
+                    </ul> 
+                </div>
+            </div> 
+         </div>
+</div>   
+     
+    
+    
+    
+    
+
+<!--  Javascript 
+=================================-->   
+<script src="js/jquery1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script src="js/responsiveCarousel.js"></script>
+<script>
+jQuery(document).ready(function($){
+	$('.gallery-01').carousel({ visible:1, itemMinWidth:740, itemMargin:60, autoRotate:6000, speed:1000});
+});
+</script>
+
+<script src="js/jquery.flexslider.js"></script>	   
+<script type="text/javascript">
+                $(window).load(function(){
+                  $('.flexslider').flexslider({
+                    animation: "fade",
+                    slideshow: true,
+                  });
+                });
+</script> 
+
+<script>
+$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+})
+</script>
+</body>
+</html>
