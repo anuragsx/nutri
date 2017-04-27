@@ -16,13 +16,23 @@
                            <li><a href="#"></a></li>
                       </ul>
                       <ul class="loginregarea">
-                      	<li>
-                          <%= link_to 'Login', new_user_session_path%>
-                        </li>
+                      <% if user_signed_in? %>
                         <li>
-                          <%= link_to 'Register', new_user_registration_path%>
+                          <span class='header-color'>
+                            Signed in as <%= current_user.email %>.
+                          </span>
+                          <%= link_to 'Sign out', destroy_user_session_path %>
                         </li>
-                      </ul>
+                    <% else %>
+                      <li>
+                        <%= link_to 'Register', new_user_registration_path %>
+                      </li>
+                      <li>
+                        <%= link_to 'Sign in', new_user_session_path %>
+                      </li>
+
+                    <% end %>
+                    </ul>
                 </div>
             </div>
          </div>
