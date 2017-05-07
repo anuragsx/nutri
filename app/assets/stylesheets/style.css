@@ -287,6 +287,8 @@ html[xmlns] .slides {display: block;}
 
 .bandescout a:hover {background:#cd0b0b;}
 
+.boxarea_services {padding:60px 0 40px; position:relative; text-align:center; border-top:5px solid #ffffff;}
+
 .boxarea {padding:60px 0 40px; position:relative; text-align:center; border-top:5px solid #ffffff; background:url(/assets/ybg.jpg) top center repeat;}
 
 .boxarea h2 {display:inline-block; padding:0 0 55px; margin:0 0 20px; font-size:60px; line-height:64px; color:#222222; background:url(/assets/btmbdr.png) bottom center no-repeat; font-family:'HelveticaNeueLTStd-LtCn'; text-transform:uppercase;}
@@ -631,7 +633,7 @@ box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.25);}
 
 .rating {float:left; margin:0 12px; font-size:18px; line-height:24px; font-weight:nornal; color:#0a0a0a;}
 
-.innerslider {padding:10px; margin:10px 0 30px; position:relative; background:#eeeeee; text-align:center;}
+.innerslider {padding:10px; margin:10px 0 30px; position:relative; text-align:center;}
 
 /* Browser Resets */
 /*********************************/ 

@@ -6754,4 +6754,10 @@ button.close {
     display: none !important;
   }
 }
+
+.header-color {
+  color: #ffffff !important;
+  font-size: 13px;
+  line-height: 16px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

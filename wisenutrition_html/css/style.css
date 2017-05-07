@@ -738,3 +738,5 @@ box-shadow:0px 3px 3px 0px rgba(50, 50, 50, 0.55);}
 .inrtestino .star {display:inline-block; overflow:hidden;}
 
 .inrtestino .star img {display:inline-block; width:15px; height:15px; margin:0 5px 0 0; background:none; border-radius:0; border:0; box-shadow:none;}
+
+.header-color {color: #ffffff !important; font-size: 13px; line-height: 16px;}

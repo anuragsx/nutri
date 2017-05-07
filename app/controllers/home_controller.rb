@@ -12,6 +12,26 @@ class HomeController < ApplicationController
 
 	end	
 
+	def about
+
+	end
+
+	def nutritionist_online
+
+	end	
+
+	def services
+
+	end	
+
+	def service_details
+
+	end	
+
+	def contact
+
+	end	
+
 	private
 
 	  def resolve_layout

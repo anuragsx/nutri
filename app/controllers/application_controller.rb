@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   def layout_by_resource
-    if devise_controller? && resource_name == :user && action_name == 'new'
+    if ((devise_controller? && resource_name == :user && action_name == 'new') || (request.filtered_parameters["controller"] == 'home' && request.filtered_parameters["action"] == 'about' || 'nutritionist_online' || 'services' || 'service_details' || 'contact')) 
       "devise"
     else
       "application"
