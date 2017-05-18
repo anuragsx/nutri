@@ -88,4 +88,5 @@ Rails.application.configure do
   #config.assets.precompile =  ['*.js', '*.css', '*.css.scss','*.js.coffee']
   config.assets.initialize_on_precompile = false
   config.assets.debug = false
+  config.assets.digest = true
 end
