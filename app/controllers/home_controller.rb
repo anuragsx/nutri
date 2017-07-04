@@ -5,7 +5,7 @@ class HomeController < ApplicationController
 	layout :resolve_layout
 
 	def index
-
+		@services = Service.all
 	end	
 
 	def client_dashboard
@@ -21,7 +21,7 @@ class HomeController < ApplicationController
 	end	
 
 	def services
-
+		@services = Service.all
 	end	
 
 	def service_details
