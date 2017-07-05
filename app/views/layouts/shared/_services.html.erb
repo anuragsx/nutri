@@ -1,72 +1,31 @@
 <div class="boxarea">
-   <div class="container">
-        <div class="row">
-           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
-               <h2>Services <strong>Offered</strong></h2>
-               <div class="row">
-                 <% @services.each do |service| %>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <a href="#" class="percirclearea">
-                              <div class="percircleouter"><div class="percircle">
-                              <%#= image_tag('service_pic1.jpg')%>
-                              <%= image_tag service.picture.url(:medium) %>
-                              </div></div>
-                              <h4><%= service.title%> </h4>
-                              <span class='details'>READ MORE</span> 
-                          </a>
-                     </div>
-                   <% end %>
-                       <!--
-                   	   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                       		<a href="#" class="percirclearea">
-                                <div class="percircleouter">
-                                <div class="percircle">
-                                	<%#= image_tag('service_pic2.jpg') %>
-                                </div>
-                                </div>	
-                                <h4>Pregnancy Diet </h4>
-                                <span>READ MORE </span>
-                            </a>
-                  	   </div>
-                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                       		<a href="#" class="percirclearea">
-                                <div class="percircleouter"><div class="percircle">
-                                	<%#= image_tag('service_pic3.jpg') %>
-                                </div></div>
-                                <h4>Blood Pressure care </h4>
-                                <span>READ MORE </span>
-                            </a>
-                  	   </div>
-                   		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                       		<a href="#" class="percirclearea">
-                                <div class="percircleouter"><div class="percircle">
-                                <%#= image_tag('service_pic4.jpg') %>
-                                </div></div>
-                                <h4>diabetic diet </h4>
-                                <span>READ MORE </span>
-                            </a>
-                  	   </div>
-                   	   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                       		<a href="#" class="percirclearea">
-                                <div class="percircleouter"><div class="percircle">
-                                <%#= image_tag('service_pic5.jpg') %>
-                                </div></div>
-                                <h4>Healthy Diet for Senior Citizens </h4>
-                                <span>READ MORE </span>
-                            </a>
-                  	   </div>
-                       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                       		<a href="#" class="percirclearea">
-                                <div class="percircleouter"><div class="percircle">
-                                <%#= image_tag('service_pic6.jpg') %>
-                                </div></div>
-                                <h4>Weight Gain Program </h4>
-                                <span>READ MORE </span>
-                            </a>
-                  	   </div>  
-                       -->                          
-               </div>
+  <div class="container">
+    <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+           <h2>Services <strong>Offered</strong></h2>
+           <div class="row">
+             <% @services.each do |service| %>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="#" class="percirclearea">
+                          <div class="percircleouter"><div class="percircle">
+                          <%= image_tag service.picture.url(:medium) %>
+                          </div></div>
+                          <h4><%= service.title%> </h4>
+                          <span class='details' id='<%= service.id %>'>READ MORE</span> 
+                      </a>
+                 </div>
+               <% end %>
            </div>
-        </div>
-      </div>         
+       </div>
+    </div>
+  </div>         
 </div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+      $(".details").click(function(){
+        id = $(".details").attr('id');
+        window.location.replace('http://localhost:3000/service_details/'+id)
+      });
+  });
+</script> 

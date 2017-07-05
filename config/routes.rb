@@ -21,7 +21,7 @@ Rails.application.routes.draw do
 
   get 'services', to: 'home#services'
 
-  get 'service_details', to: 'home#service_details'
+  get 'service_details/:id', to: 'home#service_details', as: 'service_detail'
 
   get 'contact', to: 'home#contact'
   

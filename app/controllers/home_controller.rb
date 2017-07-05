@@ -25,7 +25,10 @@ class HomeController < ApplicationController
 	end	
 
 	def service_details
-
+		if params[:id].present?
+			@service = Service.find(params[:id])
+			@services =  Service.all
+		end	
 	end	
 
 	def contact
