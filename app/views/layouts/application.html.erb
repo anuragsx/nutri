@@ -99,10 +99,7 @@ jQuery(document).ready(function($){
 	    animation: "fade",
 	    slideshow: true,
 	  });
-	});
-</script> 
 
-<script>
 $('#exampleModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
   var recipient = button.data('whatever') // Extract info from data-* attributes
@@ -119,7 +116,13 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
   ga('create', 'UA-101946177-1', 'auto');
   ga('send', 'pageview');
-// Google analytics code ends  
+// Google analytics code ends 
+    
+	});
+</script> 
+
+<script>
+ 
 </script>
 </body>
 </html>
