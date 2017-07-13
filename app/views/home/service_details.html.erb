@@ -8,7 +8,6 @@
                       <i class="fa fa-medkit" aria-hidden="true"></i>Details
                     </h3>
                     <p>
-                      <%#= image_tag('default_service_image.png')%>
                       <%= @service.description%>
                     </p>
                     <br class="clear" />
@@ -32,25 +31,15 @@
 <div class="packagearea">
   <div class="container">
     <div class="row">
-            <h2>Our <span>Packages</span></h2>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 boxdivider">            
-              <div class="circle"><span>1</span></div>
-                <h4>Month </h4>
-                <h5>1000 <span>INR</span></h5>
-                <a href="#">Enroll Now </a>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 boxdivider">            
-              <div class="circle"><span>3</span></div>
-                <h4>Month </h4>
-                <h5>2500 <span>INR</span></h5>
-                <a href="#">Enroll Now </a>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 boxdivider">            
-              <div class="circle"><span>6</span></div>
-                <h4>Month </h4>
-                <h5>4500 <span>INR</span></h5>
-                <a href="#">Enroll Now </a>
-            </div>
+      <h2>Our <span>Packages</span></h2>
+      <% @service.packages.each do |pkg| %>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 boxdivider">            
+          <div class="circle"><span><%= pkg.duration%></span></div>
+            <h4>Month </h4>
+            <h5><%= pkg.price%> <span>INR</span></h5>
+            <a href="#">Enroll Now </a>
         </div>
-     </div>
+      <%end%>
+    </div>
   </div>
+</div>

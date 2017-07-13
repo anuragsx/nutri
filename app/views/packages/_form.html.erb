@@ -1,0 +1,49 @@
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <%= method_caption_package(params)%>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+            <%= form_for([@service, @package]) do |f| %>
+              <% if package.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(package.errors.count, "error") %> prohibited this package from being saved:</h2>
+
+                  <ul>
+                  <% package.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                  <% end %>
+                  </ul>
+                </div>
+              <% end %>
+
+              <div class="field">
+                <%= f.label 'Duration (Month)' %>
+                <%= f.number_field :duration, class: 'form-control' %>
+              </div>
+
+              <div class="field">
+                <%= f.label :price %>
+                <%= f.number_field :price, class: 'form-control' %>
+              </div>
+
+              <div class="field">
+                <%= f.label :description %>
+                <%= f.text_area :description, class: 'form-control' %>
+              </div>
+              <br />
+              <div class="actions">
+                <%= f.submit method_caption_package(params), class: "btn btn-default"%>
+              </div>
+            <% end %>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->

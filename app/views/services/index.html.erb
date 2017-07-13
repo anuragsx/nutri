@@ -12,7 +12,7 @@
                         <tr>
                             <th>S. No.</th>
                             <th>Service Name</th>
-                            <th>Description</th>
+                            <th>Packages</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -21,9 +21,10 @@
                       <tr>
                         <td><%= index + 1 %></td>
                         <td><%= service.title %></td>
-                        <td><%= service.description %></td>
                         <td>
-
+                            <%= link_to '<button type="button" class="btn btn-primary">Manage Packages</button>'.html_safe, service_packages_path(service) %>
+                        </td>
+                        <td>
                           <%= link_to '<button type="button" class="btn btn-primary">Edit</button>'.html_safe, edit_service_path(service) %>
                           <%= link_to '<button type="button" class="btn btn-primary">Delete</button>'.html_safe, service, method: :delete, data: { confirm: 'Are you sure?' } %>
                         </td>
