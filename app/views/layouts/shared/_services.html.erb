@@ -23,9 +23,9 @@
 
 <script type="text/javascript">
   $( document ).ready(function() {
-      $(".details").click(function(){
-        id = $(".details").attr('id');
-        window.location.replace('http://wisenutrition.in/service_details/'+id)
-      });
+    $(".details").click(function(){
+      var id = $(this).attr('id');
+      window.location.replace('http://wisenutrition.in/service_details/'+id)
+    });
   });
 </script> 
