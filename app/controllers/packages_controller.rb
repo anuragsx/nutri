@@ -1,5 +1,6 @@
 class PackagesController < ApplicationController
   before_action :set_package, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
   layout "client"
 
   # GET /packages
@@ -7,9 +8,6 @@ class PackagesController < ApplicationController
   def index
     @service = Service.find params[:service_id]
     @packages = @service.packages
-
-    puts "--------------"
-    puts @packages.inspect
   end
 
   # GET /packages/1
