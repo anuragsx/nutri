@@ -1,0 +1,2 @@
+class HealthGoal < ApplicationRecord
+end

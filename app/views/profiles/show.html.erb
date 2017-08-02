@@ -1,0 +1,157 @@
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <%= method_caption_profile(params)%>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            General Information
+                        </div>
+                        <div class="panel-body">
+
+                          <div class="field">
+                            <p>
+                              <strong>Height:</strong>
+                              <%= @profile.height %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <p>
+                              <strong>Weight:</strong>
+                              <%= @profile.weight %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <p>
+                              <strong>Date of birth:</strong>
+                              <%= @profile.date_of_birth %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <p>
+                              <strong>Health goal:</strong>
+                              <%= @profile.health_goal %>
+                            </p>                          
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            Food Information
+                        </div>
+                        <div class="panel-body">
+                          <div class="field">
+                            <p>
+                              <strong>Food preference:</strong>
+                              <%= @profile.food_preference %>
+                            </p>
+                          </div>
+
+                          <div class="field">
+                            <p>
+                              <strong>Breakfast:</strong>
+                              <%= @profile.breakfast %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <p>
+                              <strong>Lunch:</strong>
+                              <%= @profile.lunch %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <p>
+                              <strong>Dinner:</strong>
+                              <%= @profile.dinner %>
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            Medical/Health Information
+                        </div>
+                        <div class="panel-body">
+                          <div class="field">
+                            <p>
+                              <strong>Food allergies:</strong>
+                              <%= @profile.food_allergies %>
+                            </p>
+                          </div>
+
+                          <div class="field">
+                            <p>
+                              <strong>Medical Condition:</strong>
+                              <%= @profile.medical_condition %>
+                            </p>                               
+                          </div>
+
+                          <div class="field">
+                            <p>
+                              <strong>Smoking:</strong>
+                              <%= @profile.smoking %>
+                            </p>
+                          </div>
+
+                          <div class="field">
+                            <p>
+                              <strong>Alcohol:</strong>
+                              <%= @profile.alcohol %>
+                            </p>
+                          </div>
+                          <div class="field">
+                            <%#= f.label :user_id %>
+                            <%#= f.number_field :user_id %>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->            
+
+              <br />
+              <div class="actions">
+                <%#= f.submit method_caption_profile(params), class: "btn btn-default" %>
+                <%= link_to '<button type="button" class="btn btn-primary btn-lg">Edit Profile</button>'.html_safe, edit_profile_path(@profile)%>
+              </div>          
+            </div>
+            <!-- /.panel-body -->
+
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+
+</div>
+<!-- /.row -->
+
+<script type="text/javascript">
+  var j = jQuery.noConflict();
+  j(document).ready(function(){
+    j("#datepicker").datepicker();
+  });
+</script> 
+

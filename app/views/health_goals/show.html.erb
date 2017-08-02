@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Goal name:</strong>
+  <%= @health_goal.goal_name %>
+</p>
+
+<p>
+  <strong>Goal desc:</strong>
+  <%= @health_goal.goal_desc %>
+</p>
+
+<%= link_to 'Edit', edit_health_goal_path(@health_goal) %> |
+<%= link_to 'Back', health_goals_path %>

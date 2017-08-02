@@ -15,24 +15,34 @@
                 <li>
                     <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                 </li>
-                <li>
-                    <%= link_to "<i class='fa fa-dashboard fa-fw'></i> Services".html_safe, services_path %>
-                </li> 
-                <li>
-                    <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a>
-                </li>                                
-                <li>
-                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="flot.html">Flot Charts</a>
-                        </li>
-                        <li>
-                            <a href="morris.html">Morris.js Charts</a>
-                        </li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
+                <% if current_user.present? && current_user.is_dietitian %>
+                  <li>
+                      <%= link_to "<i class='fa fa-dashboard fa-fw'></i> Services".html_safe, services_path %>
+                  </li>
+                <% end -%>
+
+                <% if current_user.present? && current_user.is_client %>
+                  <li>
+                      <a href="#"><i class="fa fa-dashboard fa-fw"></i> Offered Services<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                        <% @services.each do |service| %>
+                          <li>
+                              <%= link_to service.title, enroll_service_path(service) %>
+                          </li>
+                        <%end%>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                    <%= link_to "<i class='fa fa-dashboard fa-fw'></i> Profile".html_safe, profile_page_path(@profile) %>
+                  </li>                  
+                <% end -%> 
+
+                <% if current_user.present? && current_user.is_dietitian %>
+                  <li>
+                      <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a>
+                  </li>
+                <%end%>                                
                 
             </ul>
         </div>

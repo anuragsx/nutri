@@ -1,0 +1,27 @@
+<%= form_for(health_goal) do |f| %>
+  <% if health_goal.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(health_goal.errors.count, "error") %> prohibited this health_goal from being saved:</h2>
+
+      <ul>
+      <% health_goal.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :goal_name %>
+    <%= f.text_field :goal_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :goal_desc %>
+    <%= f.text_area :goal_desc %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

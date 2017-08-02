@@ -9,4 +9,5 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 Rails.application.config.assets.precompile += %w(  bootstrap.css style.css responsive.css
-											 jquery1.11.3.min.js responsiveCarousel.js bootstrap.js jquery.flexslider.js )
+											 jquery1.11.3.min.js responsiveCarousel.js bootstrap.js jquery.flexslider.js jquery-ui.js
+											 jquery-ui.css )

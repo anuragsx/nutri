@@ -37,9 +37,20 @@
           <div class="circle"><span><%= pkg.duration%></span></div>
             <h4>Month </h4>
             <h5><%= pkg.price%> <span>INR</span></h5>
-            <a href="#">Enroll Now </a>
+            <%= link_to 'Enroll Now', redirect_location %>
         </div>
       <%end%>
     </div>
   </div>
 </div>
+
+<% payment_form_for_payu 'gtKFFx', 'eCwWELxi',
+      :txnid => 12343334444222,
+      :amount => 10,
+      :productinfo => 'Book',
+      :firstname => 'abc',
+      :email => 'abc@example.com',
+      :phone => '1234567890',
+      :surl => 'http://localhost:3000/payu_callback',
+      :furl => 'http://localhost:3000/payu_callback',
+      :html => { :id => 'payment-form' } %>

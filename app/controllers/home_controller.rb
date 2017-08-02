@@ -9,7 +9,18 @@ class HomeController < ApplicationController
 	end	
 
 	def client_dashboard
-
+		@services = Service.all
+		@profile = current_user.profile
+		#redirect_to enroll_service_path(session[:selected_service]["id"]) if session[:selected_service].present?
+		if session[:selected_service].present?
+			redirect_to enroll_service_path(session[:selected_service]["id"])
+		else
+			if @profile.present?
+				redirect_to profile_path(@profile)
+			else
+				redirect_to new_profile_path
+			end	
+		end	
 	end	
 
 	def about
@@ -28,6 +39,7 @@ class HomeController < ApplicationController
 		if params[:id].present?
 			@service = Service.find(params[:id])
 			@services =  Service.all
+			session[:selected_service] = @service
 		end	
 	end	
 

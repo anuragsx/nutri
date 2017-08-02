@@ -40,6 +40,7 @@ gem "paperclip", "~> 5.0.0"
 
 gem 'therubyracer'
 gem 'execjs'
+gem 'payuindia', :git => 'git://github.com/payu-india/payuindia.git'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

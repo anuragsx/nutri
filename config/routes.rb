@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   
+  resources :health_goals
+  resources :profiles
   resources :posts
+
+  resources :profile
 
   resources :services do
     resources :packages
@@ -26,6 +30,8 @@ Rails.application.routes.draw do
   get 'services', to: 'home#services'
 
   get 'service_details/:id', to: 'home#service_details', as: 'service_detail'
+
+  get 'enroll_service/:id', to: 'dashboard#enroll_service', as: 'enroll_service'
 
   get 'contact', to: 'home#contact'
   

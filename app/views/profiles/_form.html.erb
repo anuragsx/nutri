@@ -1,0 +1,154 @@
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <%= method_caption_profile(params)%>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+            <%= form_for(profile) do |f| %>
+              <% if profile.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(profile.errors.count, "error") %> prohibited this profile from being saved:</h2>
+
+                  <ul>
+                  <% profile.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                  <% end %>
+                  </ul>
+                </div>
+              <% end %>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            General Information
+                        </div>
+                        <div class="panel-body">
+
+                          <div class="field">
+                            <%= f.label :height %>
+                            <div class="form-group input-group">
+                              <%= f.text_field :height, class: 'form-control' %>
+                              <span class="input-group-addon">CM</span>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <%= f.label :weight %>
+                            <div class="form-group input-group">
+                              <%= f.text_field :weight, class: 'form-control' %>
+                              <span class="input-group-addon">CM</span>
+                            </div>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :date_of_birth %>
+                            <%= f.text_field :date_of_birth, class: 'form-control', id: 'datepicker' %>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :health_goal %>
+                            <%= f.select :health_goal, options_for_select(HealthGoal.all.map{|hg| [hg.goal_name]}), {prompt:  'Select One'}, {class: 'form-control'} %>                          
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            Food Information
+                        </div>
+                        <div class="panel-body">
+                          <div class="field">
+                            <%= f.label :food_preference %>
+                            <%= f.select :food_preference, options_for_select(Profile::FOOD_PREFERENCE.map{|hg| [hg]}), {prompt:  'Select One'}, {class: 'form-control'} %>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :breakfast %>
+                            <%= f.text_area :breakfast, class: 'form-control' %>
+                          </div>
+                          
+
+                          <div class="field">
+                            <%= f.label :lunch %>
+                            <%= f.text_area :lunch, class: 'form-control' %>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :dinner %>
+                            <%= f.text_area :dinner, class: 'form-control' %>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            Medical/Health Information
+                        </div>
+                        <div class="panel-body">
+                          <div class="field">
+                            <%= f.label :food_allergies %>
+                            <%= f.text_field :food_allergies, class: 'form-control' %>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :medical_condition %>
+                            <%= f.select :medical_condition, options_for_select(Profile::MEDICAL_CONDITIONS.map{|mc| [mc]}), {prompt:  'Select One'}, {class: 'form-control'} %>   
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :smoking %>
+                            <%= f.select :smoking, options_for_select(Profile::SMOKING.map{|hg| [hg]}), {prompt:  'Select One'}, {class: 'form-control'} %>
+                          </div>
+
+                          <div class="field">
+                            <%= f.label :alcohol %>
+                            <%= f.select :alcohol, options_for_select(Profile::DRINKING.map{|hg| [hg]}), {prompt:  'Select One'}, {class: 'form-control'} %>
+                          </div>
+
+                          <div class="field">
+                            <%#= f.label :user_id %>
+                            <%#= f.number_field :user_id %>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->            
+
+              <br />
+              <div class="actions">
+                <%= f.submit method_caption_profile(params), class: "btn btn-default" %>
+              </div>
+            <% end %>            
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+
+<script type="text/javascript">
+  var j = jQuery.noConflict();
+  j(document).ready(function(){
+    j("#datepicker").datepicker();
+  });
+</script> 
