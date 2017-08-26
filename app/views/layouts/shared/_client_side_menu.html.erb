@@ -40,7 +40,7 @@
 
                 <% if current_user.present? && current_user.is_dietitian %>
                   <li>
-                      <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a>
+                    <%= link_to "<i class='fa fa-dashboard fa-fw'></i> Blog".html_safe, posts_path %>
                   </li>
                 <%end%>                                
                 

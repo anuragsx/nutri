@@ -34,5 +34,7 @@ Rails.application.routes.draw do
   get 'enroll_service/:id', to: 'dashboard#enroll_service', as: 'enroll_service'
 
   get 'contact', to: 'home#contact'
+
+  get 'blog', to: 'home#blog'
   
 end

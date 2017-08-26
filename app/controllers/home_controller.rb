@@ -43,6 +43,10 @@ class HomeController < ApplicationController
 		end	
 	end	
 
+	def blog
+		@posts = Post.all
+	end	
+
 	def contact
 
 	end	
