@@ -4,6 +4,13 @@ Rails.application.routes.draw do
   resources :profiles
   resources :posts
 
+  resources :orders do
+    collection do
+      get :checkout
+    end 
+  end
+
+
   resources :profile
 
   resources :services do

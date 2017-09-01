@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  food_allergies: MyString
+  medical_condition_id: 1
+  height: MyString
+  weight: MyString
+  date_of_birth: MyString
+  health_goal: MyString
+  smoking: MyString
+  alcohol: MyString
+  food_preference: MyString
+  breakfast: MyText
+  lunch: MyText
+  dinner: MyText
+  user_id: 1
+
+two:
+  food_allergies: MyString
+  medical_condition_id: 1
+  height: MyString
+  weight: MyString
+  date_of_birth: MyString
+  health_goal: MyString
+  smoking: MyString
+  alcohol: MyString
+  food_preference: MyString
+  breakfast: MyText
+  lunch: MyText
+  dinner: MyText
+  user_id: 1

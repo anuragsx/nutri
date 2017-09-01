@@ -16,12 +16,12 @@
                         <div class="radio">
                             <label>
                                 <% @service.packages.each do |package| %>
-                                  <input type="radio" name="optionsRadios" id="optionsRadios1"><b><%= package.price%> INR For <%= package.duration %> Months &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                  <input type="radio" name="optionsRadios" id="optionsRadios1" pckid="<%= package.id%>" serid="<%= @service.id%>"><b><%= package.price%> INR For <%= package.duration %> Months &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
                                 <%end%> 
                             </label>
                             <br />
                             <br />
-                            <%= link_to '<button type="button" class="btn btn-primary btn-lg" id="enrollButton">Enroll Now</button>'.html_safe, root_path%>
+                            <%= link_to '<button type="button" class="btn btn-primary btn-lg" id="enrollButton">Enroll Now</button>'.html_safe, checkout_orders_path()%>
                         </div>
                     </div>
                   </div>
@@ -46,6 +46,15 @@
     //This will check the status of radio button onclick
     $('input[name=optionsRadios]').click(function() {
       $("#enrollButton").attr('disabled',false);
+      var serid = $(this).attr('serid');
+      var pckid = $(this).attr('pckid');
+      //alert(serid);
+      //alert(pckid);
+      $('#enrollButton').click(function() {
+        //http://wisenutrition.in/orders/checkout?ser_id='+serid + '&pckid=' + pckid
+        window.location.replace('http://localhost:3000/orders/checkout?ser_id='+serid + '&pckid=' + pckid);
+       }); 
+            
     });
        
   });

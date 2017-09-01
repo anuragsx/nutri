@@ -1,0 +1,44 @@
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <b>Order Details - <%= @service.title%> - <%=@package.duration%> Month(s)  </b>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><strong>Duration</strong></div>
+              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><%= @package.duration%>&nbsp;MONTH(s)</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><strong>Cost</strong></div>
+              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><%= @package.price%>&nbsp; INR</div>
+            </div>
+            <% payment_form_for_payu 'gtKFFx', 'eCwWELxi',
+                  :txnid => 12343334444222,
+                  :amount => '100.00',
+                  :productinfo => 'Book',
+                  :firstname => 'abc',
+                  :email => 'abc@example.com',
+                  :phone => '1234567890',
+                  :surl => 'http://localhost:3000/payu_callback',
+                  :furl => 'http://localhost:3000/payu_callback',
+                  :html => { :id => 'payment-form' },
+                  :class => 'class="btn btn-primary btn-lg btn-block' 
+            %>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('input[type=submit]').attr('class','btn btn-primary btn-lg btn-block')
+    $('input[type=submit]').attr('value','Make Payment')
+  });
+</script> 

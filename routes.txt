@@ -1,0 +1,82 @@
+                  Prefix Verb   URI Pattern                                       Controller#Action
+            health_goals GET    /health_goals(.:format)                           health_goals#index
+                         POST   /health_goals(.:format)                           health_goals#create
+         new_health_goal GET    /health_goals/new(.:format)                       health_goals#new
+        edit_health_goal GET    /health_goals/:id/edit(.:format)                  health_goals#edit
+             health_goal GET    /health_goals/:id(.:format)                       health_goals#show
+                         PATCH  /health_goals/:id(.:format)                       health_goals#update
+                         PUT    /health_goals/:id(.:format)                       health_goals#update
+                         DELETE /health_goals/:id(.:format)                       health_goals#destroy
+                profiles GET    /profiles(.:format)                               profiles#index
+                         POST   /profiles(.:format)                               profiles#create
+             new_profile GET    /profiles/new(.:format)                           profiles#new
+            edit_profile GET    /profiles/:id/edit(.:format)                      profiles#edit
+                 profile GET    /profiles/:id(.:format)                           profiles#show
+                         PATCH  /profiles/:id(.:format)                           profiles#update
+                         PUT    /profiles/:id(.:format)                           profiles#update
+                         DELETE /profiles/:id(.:format)                           profiles#destroy
+                   posts GET    /posts(.:format)                                  posts#index
+                         POST   /posts(.:format)                                  posts#create
+                new_post GET    /posts/new(.:format)                              posts#new
+               edit_post GET    /posts/:id/edit(.:format)                         posts#edit
+                    post GET    /posts/:id(.:format)                              posts#show
+                         PATCH  /posts/:id(.:format)                              posts#update
+                         PUT    /posts/:id(.:format)                              posts#update
+                         DELETE /posts/:id(.:format)                              posts#destroy
+         checkout_orders GET    /orders/checkout(.:format)                        orders#checkout
+                  orders GET    /orders(.:format)                                 orders#index
+                         POST   /orders(.:format)                                 orders#create
+               new_order GET    /orders/new(.:format)                             orders#new
+              edit_order GET    /orders/:id/edit(.:format)                        orders#edit
+                   order GET    /orders/:id(.:format)                             orders#show
+                         PATCH  /orders/:id(.:format)                             orders#update
+                         PUT    /orders/:id(.:format)                             orders#update
+                         DELETE /orders/:id(.:format)                             orders#destroy
+           profile_index GET    /profile(.:format)                                profile#index
+                         POST   /profile(.:format)                                profile#create
+                         GET    /profile/new(.:format)                            profile#new
+                         GET    /profile/:id/edit(.:format)                       profile#edit
+                         GET    /profile/:id(.:format)                            profile#show
+                         PATCH  /profile/:id(.:format)                            profile#update
+                         PUT    /profile/:id(.:format)                            profile#update
+                         DELETE /profile/:id(.:format)                            profile#destroy
+        service_packages GET    /services/:service_id/packages(.:format)          packages#index
+                         POST   /services/:service_id/packages(.:format)          packages#create
+     new_service_package GET    /services/:service_id/packages/new(.:format)      packages#new
+    edit_service_package GET    /services/:service_id/packages/:id/edit(.:format) packages#edit
+         service_package GET    /services/:service_id/packages/:id(.:format)      packages#show
+                         PATCH  /services/:service_id/packages/:id(.:format)      packages#update
+                         PUT    /services/:service_id/packages/:id(.:format)      packages#update
+                         DELETE /services/:service_id/packages/:id(.:format)      packages#destroy
+                services GET    /services(.:format)                               services#index
+                         POST   /services(.:format)                               services#create
+             new_service GET    /services/new(.:format)                           services#new
+            edit_service GET    /services/:id/edit(.:format)                      services#edit
+                 service GET    /services/:id(.:format)                           services#show
+                         PATCH  /services/:id(.:format)                           services#update
+                         PUT    /services/:id(.:format)                           services#update
+                         DELETE /services/:id(.:format)                           services#destroy
+        new_user_session GET    /users/sign_in(.:format)                          devise/sessions#new
+            user_session POST   /users/sign_in(.:format)                          devise/sessions#create
+    destroy_user_session GET    /users/sign_out(.:format)                         devise/sessions#destroy
+       new_user_password GET    /users/password/new(.:format)                     devise/passwords#new
+      edit_user_password GET    /users/password/edit(.:format)                    devise/passwords#edit
+           user_password PATCH  /users/password(.:format)                         devise/passwords#update
+                         PUT    /users/password(.:format)                         devise/passwords#update
+                         POST   /users/password(.:format)                         devise/passwords#create
+cancel_user_registration GET    /users/cancel(.:format)                           users/registrations#cancel
+   new_user_registration GET    /users/sign_up(.:format)                          users/registrations#new
+  edit_user_registration GET    /users/edit(.:format)                             users/registrations#edit
+       user_registration PATCH  /users(.:format)                                  users/registrations#update
+                         PUT    /users(.:format)                                  users/registrations#update
+                         DELETE /users(.:format)                                  users/registrations#destroy
+                         POST   /users(.:format)                                  users/registrations#create
+                    root GET    /                                                 home#index
+               dashboard GET    /dashboard(.:format)                              home#client_dashboard
+                   about GET    /about(.:format)                                  home#about
+     nutritionist_online GET    /nutritionist_online(.:format)                    home#nutritionist_online
+                         GET    /services(.:format)                               home#services
+          service_detail GET    /service_details/:id(.:format)                    home#service_details
+          enroll_service GET    /enroll_service/:id(.:format)                     dashboard#enroll_service
+                 contact GET    /contact(.:format)                                home#contact
+                    blog GET    /blog(.:format)                                   home#blog
