@@ -1,0 +1,104 @@
+<div class="innerpgcont">
+	<div class="container">
+		<div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            </div>
+        </div>
+        <div class="row">           
+           <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+           		<div class="mainhdarea nosidesp">
+           			
+                    <div class="innerslider">
+                    <!--
+                         <div class="slider">
+                            <div class="flexslider">
+                                 <ul class="slides">
+                                    <li><img src="images/innerslider_1.jpg" alt=""  /></li>    
+                                    <li><img src="images/innerslider_2.jpg" alt=""  /></li>   
+                                    <li><img src="images/innerslider_3.jpg" alt=""  /></li>   
+                                    <li><img src="images/innerslider_4.jpg" alt=""  /></li>                 
+                                 </ul> 
+                             </div>              
+                         </div> 
+                         -->
+                     </div>
+
+                    <h2>Blog</h2>
+                    <% @posts.each do |post| %>
+                      <br class="clear" />
+                      <br class="clear" />
+                      <h3>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <%= post.title %>
+                        <br />
+                        <span style="font-size: 13px; color: #555555;">By: <b>Dt. Karishma Saxena</b> On: <%= post.created_at.strftime('%a %d %b %Y') %>
+                        </span>
+                      </h3>
+                     
+                      <p style="float: left !important;"><%= image_tag post.image.url(:medium) %>
+                      </p>
+                      <br class="clear" />
+                      <p style="float: left !important;"><%= post.description.truncate(180) %><%=link_to 'Read More >>', blog_post_path(id: post.id)%></p>
+                      <br class="clear" />
+                    <% end %>
+                                   
+           		</div>
+           </div>  
+           
+           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+           <!--
+                <div class="rgtside wbg"> 
+                   <h3>Dt. Karishma Saxena <br /><strong>Nutritionist / Dietician in Noida , India </strong></h3>
+                   <div class="doctor"> 
+                   		<img src="images/doctor.jpg" alt="" /> 
+                   		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.... <a href="#">View More &gt;&gt;</a></p>
+                   </div>
+                </div>
+
+           		<div class="rgtside"> 
+                        	<h3>Health Queries? <span>Register Now! </span></h3>
+                            <form name="f" method="post" action="">
+                            	<div class="fmboxwrap">
+                                	<div class="txtbox">Name :</div>
+									<input type="text" name="name" value="" />
+                                </div>
+                                <div class="fmboxwrap">
+                                	<div class="txtbox">Email :</div>
+									<input type="text" name="email" value="" />
+                                </div>
+                                <div class="fmboxwrap">
+                                	<div class="txtbox">Password :</div>
+									<input type="text" name="password" value="" />
+                                </div>
+                                <div class="fmboxwrap">
+                                	<div class="txtbox">Contact no. :</div>
+									<input type="text" name="mobile" value="" />
+                                </div>
+                                <input type="submit" value="Submit" class="subbtn" />
+                                <a class="linktxt" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Already Registered? Login Here </a>
+                            </form>
+                 </div>
+                 -->
+                 <!--
+                 <div class="inrtestino">
+                 	<figure>
+                          <img src="images/client-pic1.jpg" alt="" />
+                          <div class="leftinfo">
+                             <h3>Mr. Gordon Moore </h3>
+                             <h4>Tutor - Maths and Statistics, Keele University, UK</h4>
+                             <div class="star">
+                                  <img src="images/y-star.png" alt="" />
+                                  <img src="images/y-star.png" alt="" />
+                                  <img src="images/y-star.png" alt="" />
+                                  <img src="images/y-star.png" alt="" />
+                                  <img src="images/g-star.png" alt="" />
+                             </div>
+                          </div>
+                          <p><span>"</span>It's amazing to have a website like tutorialspoint at zero price and providing the best self learning content. I always recommend my students to refer to tutorialspoint for their assignments.</p>
+                   </figure>
+                </div>
+                -->
+           </div>
+        </div>
+     </div>
+</div>

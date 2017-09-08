@@ -15,7 +15,7 @@
               <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><strong>Cost</strong></div>
               <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><%= @package.price%>&nbsp; INR</div>
             </div>
-            <% payment_form_for_payu 'gtKFFx', 'eCwWELxi',
+            <% payment_form_for_payu 'rjQUPktU', 'e5iIg1jwi8',
                   :txnid => 12343334444222,
                   :amount => '100.00',
                   :productinfo => 'Book',
@@ -24,6 +24,7 @@
                   :phone => '1234567890',
                   :surl => 'http://localhost:3000/payu_callback',
                   :furl => 'http://localhost:3000/payu_callback',
+                  :service_provider => 'payu_paisa',
                   :html => { :id => 'payment-form' },
                   :class => 'class="btn btn-primary btn-lg btn-block' 
             %>

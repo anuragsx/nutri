@@ -43,5 +43,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'home#contact'
 
   get 'blog', to: 'home#blog'
+
+  get 'blog_post/:id', to: 'home#post', as: 'blog_post'
   
 end
