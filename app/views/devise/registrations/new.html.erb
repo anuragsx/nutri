@@ -26,6 +26,20 @@
 
                 <%= f.label :password_confirmation, class: "control-label", style: "float:left; font-size:20px;" %>
                 <%= f.password_field :password_confirmation, autocomplete: "off" %>
+                 <br /><br>
+
+                <%= f.label :first_name, class: "control-label", style: "float:left; font-size:20px;" %>
+                <%= f.text_field :first_name %>
+
+                 <br /><br>
+
+                <%= f.label :last_name, class: "control-label", style: "float:left; font-size:20px;" %>
+                <%= f.text_field :last_name %>
+                 <br /><br>
+
+                <%= f.label :phone_no, class: "control-label", style: "float:left; font-size:20px;" %>
+                <%= f.text_field   :phone_no %>
+                <%= f.hidden_field :role_id, value: 3 %>
 
                 <%= f.submit "Sign Up", class: "subbtn" %>
                 <p>Already have an account? </p>
