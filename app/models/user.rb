@@ -7,6 +7,10 @@ class User < ApplicationRecord
   belongs_to :role
   has_one :profile
 
+  validates :first_name,:last_name, :phone_no,   presence: true
+  validates :phone_no, numericality: true
+
+
   def is_admin
   	self.role.name == 'Admin'
   end  

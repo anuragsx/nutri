@@ -1,52 +1,34 @@
+
+
 <div class="regouter">
   <div class="container">
      <div class="row">
        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-          <div class="regarea">
-            <h2>Sign Up </h2>
-            <div class="regform">
-              <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-              <% if flash.present? %>
-                <div class="alert alert-danger alert-dismissable">
-                  <%- flash.each do |name, msg| -%>
-                    <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String) %>
-                  <%- end -%>
-                </div>
-              <%end%>   
-                <%= f.label :email, class: "control-label", style: "float:left; font-size:20px;" %><br />
-                <%= f.email_field :email, autofocus: true%>
-                <br><br>
-
-                <%= f.label :password, class: "control-label", style: "float:left; font-size:20px;" %><br />                   
-                <%# if @minimum_password_length %>
-                  <!--<span>(<%#= @minimum_password_length %> characters minimum)</span>-->
-                <%# end %>
-                <%= f.password_field :password, autocomplete: "off" %> 
-                <br /><br>
-
-                <%= f.label :password_confirmation, class: "control-label", style: "float:left; font-size:20px;" %>
-                <%= f.password_field :password_confirmation, autocomplete: "off" %>
-                 <br /><br>
-
-                <%= f.label :first_name, class: "control-label", style: "float:left; font-size:20px;" %>
-                <%= f.text_field :first_name %>
-
-                 <br /><br>
-
-                <%= f.label :last_name, class: "control-label", style: "float:left; font-size:20px;" %>
-                <%= f.text_field :last_name %>
-                 <br /><br>
-
-                <%= f.label :phone_no, class: "control-label", style: "float:left; font-size:20px;" %>
-                <%= f.text_field   :phone_no %>
-                <%= f.hidden_field :role_id, value: 3 %>
-
-                <%= f.submit "Sign Up", class: "subbtn" %>
-                <p>Already have an account? </p>
-                <%= render "devise/shared/links" %>
-                <% end %>
-            </div>
-          </div>
+               <div class="regarea">
+                        <h2>Register to Begin Your Consultation </h2>
+                            <div class="regform">
+                                 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+                                    <% if flash.present? %>
+                                      <div class="alert alert-danger alert-dismissable">
+                                        <%- flash.each do |name, msg| -%>
+                                          <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String) %>
+                                        <%- end -%>
+                                      </div>
+                                    <%end%>   
+                            
+                                    <%= f.text_field :first_name, placeholder: 'Enter first name' %>
+                                    <%= f.text_field :last_name, placeholder: 'Enter last name' %>
+                                    <%= f.text_field   :phone_no, placeholder: 'Enter phone no' %>
+                                    <%= f.email_field :email, autofocus: true, placeholder: 'Enter email'%>
+                                    <%= f.password_field :password, autocomplete: "off", placeholder: 'Enter password' %> 
+                                    <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'Enter password confirmation' %>                                 
+                                    <%= f.hidden_field :role_id, value: 3 %>
+                                    <%= f.submit "Sign Up", class: "subbtn" %>
+                                    <p>Already have an account? </p>
+                                    <%= render "devise/shared/links" %>
+                                  <% end %>
+                            </div>
+               </div>
          </div>
       </div>
    </div>
