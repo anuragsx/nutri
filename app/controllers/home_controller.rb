@@ -49,6 +49,7 @@ class HomeController < ApplicationController
 
 	def post
 		@post = Post.find(params[:id])
+		@title = @post.title
 	end		
 
 	def contact
