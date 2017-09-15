@@ -48,7 +48,7 @@ class HomeController < ApplicationController
 	end	
 
 	def post
-		@post = Post.find(params[:id])
+		@post = Post.friendly.find(params[:id])
 		@title = @post.title
 	end		
 

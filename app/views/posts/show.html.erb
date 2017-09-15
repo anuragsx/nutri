@@ -1,19 +1,45 @@
-<p id="notice"><%= notice %></p>
+<div class="innerpgcont">
+	<div class="container">
+		<div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            </div>
+        </div>
+        <div class="row">           
+           <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+           		<div class="mainhdarea nosidesp">
 
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
+                    <h2><%= @post.title %></h2>
+                    <span style="font-size: 13px; color: #555555;">By: <b>Dt. Karishma Saxena</b> On: <%= @post.created_at.strftime('%a %d %b %Y') %>
+                    </span>
+                      <br class="clear" />  
+                      <br class="clear" />
+                      <p style="float: left !important;"><%= image_tag @post.image.url,  style: "width: 650px; height:250px;" %>
+                      </p>
+                      <br class="clear" />
+                      <br class="clear" />
+                      <p style="float: left !important;"><%= @post.description.html_safe %></p>
+                      <br class="clear" />
+                   
+                                   
+           		</div>
+           </div>  
+           
+           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+           
+                <div class="rgtside wbg"> 
+                   <h3>Dt. Karishma Saxena <br /><strong>Nutritionist / Dietician in Noida , India </strong></h3>
+                   <div class="doctor"> 
+                      <%= image_tag('Dt. Karishma Saxena.jpg')%> 
+                   		<p>When Diet is WRONG, Medicine is of no Use. When Diet is RIGHT Medicine is if No NEED <%=link_to 'View More >>', about_path%></a></p>
+                   </div>
+                </div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @post.description %>
-</p>
-
-<p>
-  <strong>Created by:</strong>
-  <%= @post.created_by %>
-</p>
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+           		<div class="rgtside"> 
+                <h3>Health Queries? </h3>
+                <%=link_to image_tag("signup.jpg"), new_user_registration_path%>
+                          
+              </div>
+           </div>
+        </div>
+     </div>
+</div>

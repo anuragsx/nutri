@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem "paperclip", "~> 5.0.0"
 
+gem 'friendly_id', '~> 5.1.0'
+
 gem 'therubyracer'
 gem 'execjs'
 gem 'payuindia', :git => 'git://github.com/payu-india/payuindia.git'

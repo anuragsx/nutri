@@ -3,7 +3,8 @@ class PostsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_services
 
-  layout "client"
+  #layout "client"
+  layout :resolve_layout
 
   # GET /posts
   # GET /posts.json
@@ -15,6 +16,7 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
+    @title = @post.title
   end
 
   # GET /posts/new
@@ -69,11 +71,20 @@ class PostsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post
-      @post = Post.find(params[:id])
+      @post = Post.friendly.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:title, :description, :created_by, :image)
+      params.require(:post).permit(:title, :description, :created_by, :image, :slug)
+    end
+
+    def resolve_layout
+      case action_name
+      when "show"
+        "devise"
+      else
+        "client"
+      end
     end
 end
