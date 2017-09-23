@@ -6,6 +6,7 @@ class User < ApplicationRecord
 
   belongs_to :role
   has_one :profile
+  has_many :orders
 
   validates :first_name,:last_name, :phone_no,   presence: true
   validates :phone_no, numericality: true

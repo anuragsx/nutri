@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :orders do
     collection do
       get :checkout
+      #get :payu_return
     end 
   end
 
@@ -34,7 +35,7 @@ Rails.application.routes.draw do
 
   get 'nutritionist_online', to: 'home#nutritionist_online'
 
-  get 'services', to: 'home#services'
+  get 'services_offered', to: 'home#services'
 
   get 'service_details/:id', to: 'home#service_details', as: 'service_detail'
 
@@ -45,5 +46,9 @@ Rails.application.routes.draw do
   get 'blog', to: 'home#blog'
 
   get 'blog_post/:id', to: 'home#post', as: 'blog_post'
+
+  #match '/payu_callback'=>'carts#payu_return'
+
+  post '/payu_callback', to: 'orders#payu_return'
   
 end

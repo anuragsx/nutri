@@ -43,6 +43,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'therubyracer'
 gem 'execjs'
 gem 'payuindia', :git => 'git://github.com/payu-india/payuindia.git'
+gem 'pry'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
