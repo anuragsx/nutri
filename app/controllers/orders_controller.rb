@@ -2,6 +2,10 @@ class OrdersController < ApplicationController
 	before_action :authenticate_user!
   layout "client"
 
+  def index
+
+  end	
+
   def checkout
   	@services = Service.all
   	@service = Service.find(params[:ser_id])

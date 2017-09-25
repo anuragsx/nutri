@@ -11,6 +11,14 @@ Rails.application.routes.draw do
     end 
   end
 
+  #resource :user do
+   # resources :orders, only: [:index, :new, :create, :edit, :update] do
+    #  collection do
+     #   get :checkout
+     # end
+    #end  
+  #end  
+
 
   resources :profile
 
@@ -40,6 +48,8 @@ Rails.application.routes.draw do
   get 'service_details/:id', to: 'home#service_details', as: 'service_detail'
 
   get 'enroll_service/:id', to: 'dashboard#enroll_service', as: 'enroll_service'
+
+  get 'users', to: 'dashboard#users_list', as: 'users'
 
   get 'contact', to: 'home#contact'
 
