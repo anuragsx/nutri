@@ -16,7 +16,7 @@ class HomeController < ApplicationController
 			redirect_to enroll_service_path(session[:selected_service]["id"])
 		else
 			if current_user.is_dietitian
-				redirect_to users_path
+				redirect_to clients_path
 			else
 				if @profile.present?
 					redirect_to profile_path(@profile)

@@ -4,20 +4,20 @@ Rails.application.routes.draw do
   resources :profiles
   resources :posts
 
-  resources :orders do
-    collection do
-      get :checkout
+  #resources :orders do
+   # collection do
+    #  get :checkout
       #get :payu_return
-    end 
-  end
+   # end 
+  #end
 
-  #resource :user do
-   # resources :orders, only: [:index, :new, :create, :edit, :update] do
-    #  collection do
-     #   get :checkout
-     # end
-    #end  
-  #end  
+  resources :users , :as => :clients do
+    resources :orders, only: [:index, :new, :create, :edit, :update] do
+      collection do
+        get :checkout
+      end
+    end  
+  end  
 
 
   resources :profile
@@ -30,7 +30,7 @@ Rails.application.routes.draw do
   #	get '/users/sign_out' => 'devise/sessions#destroy'
   #end
 
-  devise_for :users, :controllers => {:registrations => "users/registrations"} do
+  devise_for :users, :path_prefix => 'account', :controllers => {:registrations => "users/registrations"} do
   	get '/users/sign_out' => 'devise/sessions#destroy'
   end	
 
@@ -49,7 +49,7 @@ Rails.application.routes.draw do
 
   get 'enroll_service/:id', to: 'dashboard#enroll_service', as: 'enroll_service'
 
-  get 'users', to: 'dashboard#users_list', as: 'users'
+  #get 'users', to: 'dashboard#users_list', as: 'users'
 
   get 'contact', to: 'home#contact'
 
