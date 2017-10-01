@@ -38,7 +38,7 @@
                       <p style="float: left !important;"><%= image_tag post.image.url(:medium) %>
                       </p>
                       <br class="clear" />
-                      <p style="float: left !important;"><%= post.description.truncate(180) %><%=link_to 'Read More >>', blog_post_path(id: post.id)%></p>
+                      <p style="float: left !important;"><%= post.description.html_safe.truncate(180) %><%=link_to 'Read More >>', post_path(post)%></p>
                       <br class="clear" />
                     <% end %>
                                    

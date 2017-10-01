@@ -1,4 +1,5 @@
 class DashboardController < ApplicationController
+	before_action :authenticate_user!
 	layout 'client'
 
 	def enroll_service
@@ -8,4 +9,5 @@ class DashboardController < ApplicationController
 			@packages = @service.packages
 		end	
 	end	
+
 end

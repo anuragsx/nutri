@@ -8,6 +8,8 @@ module ApplicationHelper
         	return "selected"	
         elsif (controller.controller_name == "home" && controller.action_name == 'services' && page == 'services')
         	return "selected"
+        elsif (controller.controller_name == "home" && controller.action_name == 'blog' && page == 'blog')
+                return "selected"                
         elsif (controller.controller_name == "home" && controller.action_name == 'service_details' && page == 'services')
         	return "selected"		
 		end				

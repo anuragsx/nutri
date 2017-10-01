@@ -21,7 +21,7 @@
                             </label>
                             <br />
                             <br />
-                            <%= link_to '<button type="button" class="btn btn-primary btn-lg" id="enrollButton">Enroll Now</button>'.html_safe, checkout_orders_path()%>
+                            <%= link_to '<button type="button" class="btn btn-primary btn-lg" id="enrollButton">Enroll Now</button>'.html_safe, '#'%>
                         </div>
                     </div>
                   </div>
@@ -52,7 +52,8 @@
       //alert(pckid);
       $('#enrollButton').click(function() {
         //http://wisenutrition.in/orders/checkout?ser_id='+serid + '&pckid=' + pckid
-        window.location.replace('http://localhost:3000/orders/checkout?ser_id='+serid + '&pckid=' + pckid);
+        window.location.replace('http://wisenutrition.in/orders/checkout?ser_id='+serid + '&pckid=' + pckid);
+        //window.location.replace('http://localhost:3000/orders/checkout?ser_id='+serid + '&pckid=' + pckid);
        }); 
             
     });

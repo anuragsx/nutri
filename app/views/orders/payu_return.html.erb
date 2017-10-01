@@ -8,14 +8,17 @@
             <!-- /.panel-heading -->
             <div class="panel-body">
             <div class="row">
-              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><strong>Duration</strong></div>
-              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><%= @package.duration%>&nbsp;MONTH(s)</div>
+              <% if current_user.orders.last.order_status == 1%> 
+                <div class="col-sm-12 box" style="margin-top:10px; margin-bottom:10px">Thanks for making the payment. Your diet chart will be uploaded in next one hour. Please click on Diet Charts link after one hour to download it. Feel free to contact, if you have queries.
+                </div>
+              <% else %>
+                <div class="col-sm-12 box" style="margin-top:10px; margin-bottom:10px">Your transaction has been Failed. Please try again!
+                </div>
+              <% end -%> 
+
+              </div>
             </div>
-            <div class="row">
-              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><strong>Cost</strong></div>
-              <div class="col-sm-6 box" style="margin-top:10px; margin-bottom:10px"><%= @package.price%>&nbsp; INR</div>
-            </div>
-            <% payment_form_for_payu PAY_U_KEY, PAY_U_SALT,
+            <%# payment_form_for_payu PAY_U_KEY, PAY_U_SALT,
                   :txnid => transaction_id,
                   :amount => @package.price,
                   :productinfo => @service.title,

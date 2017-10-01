@@ -4,11 +4,20 @@ Rails.application.routes.draw do
   resources :profiles
   resources :posts
 
-  resources :orders do
-    collection do
-      get :checkout
-    end 
-  end
+  #resources :orders do
+   # collection do
+    #  get :checkout
+      #get :payu_return
+   # end 
+  #end
+
+  resources :users , :as => :clients do
+    resources :orders, only: [:index, :new, :create, :edit, :update] do
+      collection do
+        get :checkout
+      end
+    end  
+  end  
 
 
   resources :profile
@@ -21,7 +30,7 @@ Rails.application.routes.draw do
   #	get '/users/sign_out' => 'devise/sessions#destroy'
   #end
 
-  devise_for :users, :controllers => {:registrations => "users/registrations"} do
+  devise_for :users, :path_prefix => 'account', :controllers => {:registrations => "users/registrations"} do
   	get '/users/sign_out' => 'devise/sessions#destroy'
   end	
 
@@ -34,16 +43,22 @@ Rails.application.routes.draw do
 
   get 'nutritionist_online', to: 'home#nutritionist_online'
 
-  get 'services', to: 'home#services'
+  get 'services_offered', to: 'home#services'
 
   get 'service_details/:id', to: 'home#service_details', as: 'service_detail'
 
   get 'enroll_service/:id', to: 'dashboard#enroll_service', as: 'enroll_service'
+
+  #get 'users', to: 'dashboard#users_list', as: 'users'
 
   get 'contact', to: 'home#contact'
 
   get 'blog', to: 'home#blog'
 
   get 'blog_post/:id', to: 'home#post', as: 'blog_post'
+
+  #match '/payu_callback'=>'carts#payu_return'
+
+  post '/payu_callback', to: 'orders#payu_return'
   
 end
