@@ -1,49 +1,49 @@
-@font-face {
-    font-family: 'HelveticaNeueLTStd55Roman';
-    src: asset-url('helveticaneueltstd-roman.eot');
-    src: asset-url('helveticaneueltstd-roman.eot') format('embedded-opentype'), asset-url('helveticaneueltstd-roman.woff') format('woff'), asset-url('helveticaneueltstd-roman.ttf') format('truetype'), asset-url('helveticaneueltstd-roman.svg#HelveticaNeueLTStd55Roman') format('svg');
-}
+ @font-face {
+        font-family: 'HelveticaNeueLTStd55Roman';
+        src: asset-url('helveticaneueltstd-roman.eot');
+        src: asset-url('helveticaneueltstd-roman.eot') format('embedded-opentype'), asset-url('helveticaneueltstd-roman.woff') format('woff'), asset-url('helveticaneueltstd-roman.ttf') format('truetype'), asset-url('helveticaneueltstd-roman.svg#HelveticaNeueLTStd55Roman') format('svg');
+    }
 
-@font-face {
-    font-family: 'HelveticaCE55RomanBold';
-    src: asset-url('helvetica-neue-ce-75-bold.eot');
-    src: asset-url('helvetica-neue-ce-75-bold.eot') format('embedded-opentype'), asset-url('helvetica-neue-ce-75-bold.woff') format('woff'), asset-url('helvetica-neue-ce-75-bold.ttf') format('truetype'), asset-url('helvetica-neue-ce-75-bold.svg#HelveticaCE55RomanBold') format('svg');
-}
+    @font-face {
+        font-family: 'HelveticaCE55RomanBold';
+        src: asset-url('helvetica-neue-ce-75-bold.eot');
+        src: asset-url('helvetica-neue-ce-75-bold.eot') format('embedded-opentype'), asset-url('helvetica-neue-ce-75-bold.woff') format('woff'), asset-url('helvetica-neue-ce-75-bold.ttf') format('truetype'), asset-url('helvetica-neue-ce-75-bold.svg#HelveticaCE55RomanBold') format('svg');
+    }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd45Light';
-    src: asset-url('helveticaneueltstd-lt.eot');
-    src: asset-url('helveticaneueltstd-lt.eot') format('embedded-opentype'), asset-url('helveticaneueltstd-lt.woff') format('woff'), asset-url('helveticaneueltstd-lt.ttf') format('truetype'), asset-url('helveticaneueltstd-lt.svg#HelveticaNeueLTStd45Light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'HelveticaNeueLTStd45Light';
+        src: asset-url('helveticaneueltstd-lt.eot');
+        src: asset-url('helveticaneueltstd-lt.eot') format('embedded-opentype'), asset-url('helveticaneueltstd-lt.woff') format('woff'), asset-url('helveticaneueltstd-lt.ttf') format('truetype'), asset-url('helveticaneueltstd-lt.svg#HelveticaNeueLTStd45Light') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd75Bold';
-    src: asset-url('helveticaneueltstd-bd.eot');
-    src: asset-url('helveticaneueltstd-bd.eot') format('embedded-opentype'),asset-url('helveticaneueltstd-bd.woff') format('woff'), asset-url('helveticaneueltstd-bd.ttf') format('truetype'), asset-url('helveticaneueltstd-bd.svg#HelveticaNeueLTStd75Bold') format('svg');
-}
+    @font-face {
+        font-family: 'HelveticaNeueLTStd75Bold';
+        src: asset-url('helveticaneueltstd-bd.eot');
+        src: asset-url('helveticaneueltstd-bd.eot') format('embedded-opentype'),asset-url('helveticaneueltstd-bd.woff') format('woff'), asset-url('helveticaneueltstd-bd.ttf') format('truetype'), asset-url('helveticaneueltstd-bd.svg#HelveticaNeueLTStd75Bold') format('svg');
+    }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-Md';
-    src: asset-url('HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-Md.otf') format('opentype'), asset-url('HelveticaNeueLTStd-Md.woff') format('woff'), asset-url('HelveticaNeueLTStd-Md.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'HelveticaNeueLTStd-Md';
+        src: asset-url('HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-Md.otf') format('opentype'), asset-url('HelveticaNeueLTStd-Md.woff') format('woff'), asset-url('HelveticaNeueLTStd-Md.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-BdCn';
-    src: asset-url('HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-BdCn.otf') format('opentype'), asset-url('HelveticaNeueLTStd-BdCn.woff') format('woff'), asset-url('HelveticaNeueLTStd-BdCn.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'HelveticaNeueLTStd-BdCn';
+        src: asset-url('HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-BdCn.otf') format('opentype'), asset-url('HelveticaNeueLTStd-BdCn.woff') format('woff'), asset-url('HelveticaNeueLTStd-BdCn.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-LtCn';
-    src: asset-url('HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-LtCn.otf') format('opentype'), asset-url('HelveticaNeueLTStd-LtCn.woff') format('woff'), asset-url('HelveticaNeueLTStd-LtCn.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'HelveticaNeueLTStd-LtCn';
+        src: asset-url('HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'), asset-url('HelveticaNeueLTStd-LtCn.otf') format('opentype'), asset-url('HelveticaNeueLTStd-LtCn.woff') format('woff'), asset-url('HelveticaNeueLTStd-LtCn.ttf') format('truetype'), asset-url('HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
 a,
 img {
@@ -193,7 +193,7 @@ body {
     width: 10px;
     height: 10px;
     text-indent: -99999px;
-    background: url(../images/social-icon.png) no-repeat;
+    background: url(social-icon.png) no-repeat;
     display: block;
 }
 
@@ -484,11 +484,11 @@ nav {
     float: right;
     padding: 0 10px;
     text-align: center;
-    background: url(../images/search-icon.png) 0 0 no-repeat;
+    background: url(search-icon.png) 0 0 no-repeat;
 }
 
 .topsearchbox input:hover[type="submit"] {
-    background: url(../images/search-icon.png) 0 -17px no-repeat;
+    background: url(search-icon.png) 0 -17px no-repeat;
 }
 
 .slider_part {
@@ -643,22 +643,22 @@ html[xmlns] .slides {
 .flex-direction-nav .flex-prev {
     left: 20px;
     opacity: 0.4;
-    background: url(../images/prev.png) center center no-repeat;
+    background: url(prev.png) center center no-repeat;
 }
 
 .flex-direction-nav .flex-next {
     right: 20px;
     opacity: 0.4;
     text-align: right;
-    background: url(../images/next.png) center center no-repeat;
+    background: url(next.png) center center no-repeat;
 }
 
 .flexslider:hover .flex-prev {
-    background: url(../images/prev.png) center center no-repeat;
+    background: url(prev.png) center center no-repeat;
 }
 
 .flexslider:hover .flex-next {
-    background: url(../images/next.png) center center no-repeat;
+    background: url(next.png) center center no-repeat;
 }
 
 .flexslider:hover .flex-next:hover,
@@ -846,7 +846,7 @@ html[xmlns] .slides {
     position: relative;
     text-align: center;
     border-top: 5px solid #ffffff;
-    /* background: url(../images/ybg.jpg) top center repeat; */
+    /* background: url(ybg.jpg) top center repeat; */
     background-color: #fff;
 }
 
@@ -857,7 +857,7 @@ html[xmlns] .slides {
     font-size: 40px;
     line-height: 44px;
     color: #16a61e;
-    background: url(../images/btmbdr.png) bottom center no-repeat;
+    background: url(btmbdr.png) bottom center no-repeat;
     font-family: 'HelveticaNeueLTStd-LtCn';
     text-transform: uppercase;
 }
@@ -1011,7 +1011,7 @@ html[xmlns] .slides {
     text-transform: uppercase;
     color: #16a61e;
     font-family: 'HelveticaNeueLTStd-LtCn';
-    background: url(../images/redbdr.jpg) bottom center no-repeat;
+    background: url(redbdr.jpg) bottom center no-repeat;
 }
 
 .csarea h2 span {
@@ -1065,33 +1065,33 @@ html[xmlns] .slides {
     width: 27px;
     height: 28px;
     display: inline-block;
-    background: url(../images/icon_one.png) center center no-repeat;
+    background: url(icon_one.png) center center no-repeat;
 }
 
 .percsarea:hover .iconone {
-    background: url(../images/icon_one_h.png) center center no-repeat;
+    background: url(icon_one_h.png) center center no-repeat;
 }
 
 .icontwo {
     width: 27px;
     height: 28px;
     display: inline-block;
-    background: url(../images/icon_two.png) center center no-repeat;
+    background: url(icon_two.png) center center no-repeat;
 }
 
 .percsarea:hover .icontwo {
-    background: url(../images/icon_two_h.png) center center no-repeat;
+    background: url(icon_two_h.png) center center no-repeat;
 }
 
 .iconthree {
     width: 27px;
     height: 28px;
     display: inline-block;
-    background: url(../images/icon_three.png) center center no-repeat;
+    background: url(icon_three.png) center center no-repeat;
 }
 
 .percsarea:hover .iconthree {
-    background: url(../images/icon_three_h.png) center center no-repeat;
+    background: url(icon_three_h.png) center center no-repeat;
 }
 
 .percsarea h4 {
@@ -1127,7 +1127,7 @@ html[xmlns] .slides {
 }
 
 .bgimgarea {
-    background: url(../images/bgimg.jpg) top center no-repeat;
+    background: url(bgimg.jpg) top center no-repeat;
     background-size: 100%;
     padding-top: 100px;
     padding-bottom: 120px;
@@ -1185,7 +1185,7 @@ html[xmlns] .slides {
 }
 
 .partnerouter {
-    /* background: url(../images/redbg.png) left top no-repeat; */
+    /* background: url(redbg.png) left top no-repeat; */
     padding: 93px 0 0;
     margin: -93px 0 0 0;
 }
@@ -1226,7 +1226,7 @@ html[xmlns] .slides {
     color: #16a61e;
     text-transform: uppercase;
     font-family: 'HelveticaNeueLTStd-LtCn';
-    background: url(../images/redbdr.jpg) bottom center no-repeat;
+    background: url(redbdr.jpg) bottom center no-repeat;
 }
 
 .testimoouter h2 span {
@@ -1241,7 +1241,7 @@ html[xmlns] .slides {
     width: 17px;
     height: 50px;
     margin: 110px 0 0 -12px;
-    background: url(../images/test_prev.png) left top no-repeat;
+    background: url(test_prev.png) left top no-repeat;
     font-size: 0;
     position: absolute;
     z-index: 9;
@@ -1254,7 +1254,7 @@ html[xmlns] .slides {
     width: 17px;
     height: 50px;
     margin: 110px -12px 0 0;
-    background: url(../images/test_next.png) left top no-repeat;
+    background: url(test_next.png) left top no-repeat;
     font-size: 0;
     position: absolute;
     z-index: 9;
@@ -1269,7 +1269,7 @@ html[xmlns] .slides {
 }
 
 .testimoimgarea {
-    background: url(../images/divider.png) center top no-repeat;
+    background: url(divider.png) center top no-repeat;
     padding: 34px 0 0;
 }
 
@@ -1348,7 +1348,7 @@ html[xmlns] .slides {
     line-height: 22px;
     color: #7d7d7d;
     margin: 0 0 20px;
-    font-family: ''HelveticaNeueLTStd-BdCn';
+    font-family: 'HelveticaNeueLTStd-BdCn';
 
 }
 
@@ -1395,7 +1395,7 @@ html[xmlns] .slides {
 
 .footerbg {
     text-align: center;
-    background-image: image-url(footerbg.jpg) top center repeat #000000;
+    background: url(footerbg.jpg) top center repeat #000000;
     padding: 40px 0 35px;
     margin: 0 0;
     clear: both;
@@ -1498,7 +1498,7 @@ html[xmlns] .slides {
     width: 24px;
     height: 24px;
     text-indent: -99999px;
-    background: url(../images/social-icon-footer.png) no-repeat;
+    background: url(social-icon-footer.png) no-repeat;
     display: block;
 }
 
@@ -1755,8 +1755,8 @@ html[xmlns] .slides {
     font-size: 48px;
     line-height: 54px;
     color: #040507;
-    font-family: ''HelveticaNeueLTStd-BdCn';
- background: url(../images/redbdr.jpg) bottom center no-repeat;
+    font-family: 'HelveticaNeueLTStd-BdCn';
+    background: url(redbdr.jpg) bottom center no-repeat;
 }
 
 .packagearea h2 span {
@@ -1883,7 +1883,7 @@ html[xmlns] .slides {
     font-weight: normal;
     color: #666666;
     display: inline-block;
-    font-family: ''HelveticaNeueLTStd-BdCn';
+    font-family: 'HelveticaNeueLTStd-BdCn';
 
 }
 
@@ -2104,7 +2104,7 @@ html[xmlns] .slides {
     color: #ffffff;
     margin: 0 0;
     padding: 0 0;
-    font-family: ''HelveticaNeueLTStd-BdCn';
+    font-family: 'HelveticaNeueLTStd-BdCn';
 
 }
 
@@ -2125,6 +2125,43 @@ html[xmlns] .slides {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
+
+.regform input[type="email"] {
+    width: 100%;
+    background: #fcfcfc;
+    color: #666666;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 15px;
+    margin: 0;
+    border: 1px solid #16a61e;
+    font-family: 'HelveticaNeueLTStd-LtCn';
+    text-transform: capitalize;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.regform input[type="password"] {
+    width: 100%;
+    background: #fcfcfc;
+    color: #666666;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 15px;
+    margin: 0;
+    border: 1px solid #16a61e;
+    font-family: 'HelveticaNeueLTStd-LtCn';
+    text-transform: capitalize;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
 
 .regform input[type="submit"] {
     width: 100%;
@@ -2360,22 +2397,22 @@ html[xmlns] .slides {
 .innerslider .flex-direction-nav .flex-prev {
     left: 10px;
     opacity: 0.7;
-    background: url(../images/inslider_prev.png) center center no-repeat;
+    background: url(inslider_prev.png) center center no-repeat;
 }
 
 .innerslider .flex-direction-nav .flex-next {
     right: 10px;
     opacity: 0.7;
     text-align: right;
-    background: url(../images/inslider_next.png) center center no-repeat;
+    background: url(inslider_next.png) center center no-repeat;
 }
 
 .innerslider .flexslider:hover .flex-prev {
-    background: url(../images/inslider_prev.png) center center no-repeat;
+    background: url(inslider_prev.png) center center no-repeat;
 }
 
 .innerslider .flexslider:hover .flex-next {
-    background: url(../images/inslider_next.png) center center no-repeat;
+    background: url(inslider_next.png) center center no-repeat;
 }
 
 .innerslider .flexslider:hover .flex-next:hover,
