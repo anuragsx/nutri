@@ -1,0 +1,27 @@
+/* line 1, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/custom.scss */
+.footerbg {
+  text-align: center;
+  background: url(footerbg.jpg) top center repeat #000000;
+  padding: 40px 0 35px;
+  margin: 0 0;
+  clear: both;
+  border-bottom: 9px solid #16a61e;
+}
+
+/* line 10, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/custom.scss */
+.footerbg p {
+  font-size: 13px;
+  color: #a8a8a8;
+  line-height: 18px;
+  margin: 0 0 18px 0;
+}
+
+/* line 17, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/custom.scss */
+.footerbg p a {
+  color: #ff8c00;
+}
+
+/* line 21, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/custom.scss */
+.footerbg p a:hover {
+  text-decoration: underline;
+}

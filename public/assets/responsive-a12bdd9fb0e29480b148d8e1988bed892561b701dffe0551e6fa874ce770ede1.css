@@ -1,0 +1,1467 @@
+/*********** Responsive View ************/
+@media only screen and (min-width: 1025px) and (max-width: 1169px) {
+  /* line 6, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li {
+    margin: 0 12px;
+  }
+
+  /* line 8, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banleftarea h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  /* line 10, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banleftarea h2 small {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  /* line 12, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .baniconarea li {
+    margin: 0 6px 10px;
+  }
+
+  /* line 14, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .perbox {
+    width: 210px;
+    height: 230px;
+  }
+
+  /* line 16, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .tcbg {
+    padding: 50px 0;
+  }
+
+  /* line 18, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .tcbox h3 {
+    font-size: 15px;
+  }
+
+  /* line 20, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .tcbg p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #666666;
+    font-weight: 400;
+  }
+
+  /* line 22, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .addressarea {
+    margin: 0 0 19px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 981px) and (max-width: 1024px) {
+  /* line 32, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topheader {
+    text-align: center;
+  }
+
+  /* line 34, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon {
+    margin: 17px 8px 0;
+  }
+
+  /* line 36, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon li {
+    margin: 0 6px 0 0;
+  }
+
+  /* line 38, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topnavbar {
+    margin-top: 0;
+  }
+
+  /* line 40, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li {
+    margin: 0 8px;
+  }
+
+  /* line 42, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li:last-child {
+    margin: 0 0 0 4px;
+  }
+
+  /* line 44, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > a {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+
+  /* line 46, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout {
+    margin: 100px auto 0;
+  }
+
+  /* line 48, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  /* line 50, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h3 {
+    font-size: 46px;
+    line-height: 56px;
+    margin: 0 0 10px 0px;
+  }
+
+  /* line 52, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  /* line 54, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .percirclearea h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  /* line 56, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .percsarea p {
+    padding: 0px 7%;
+  }
+
+  /* line 58, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea {
+    background-size: cover;
+    padding-top: 70px;
+  }
+
+  /* line 60, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerarea {
+    padding: 30px 0;
+  }
+
+  /* line 62, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea textarea {
+    height: 70px;
+  }
+
+  /* line 64, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  /********** Inner pages ************/
+  /* line 69, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .innerpgcont {
+    padding: 40px 0;
+  }
+
+  /* line 71, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea table td a {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+
+  /* line 73, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .fmboxwrap input {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  /* line 81, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topheader {
+    text-align: center;
+  }
+
+  /* line 83, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon {
+    margin: 17px 8px 0;
+  }
+
+  /* line 85, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon li {
+    margin: 0 6px 0 0;
+  }
+
+  /* line 87, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topnavbar {
+    margin-top: 0;
+  }
+
+  /* line 89, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar {
+    margin-top: 8px;
+  }
+
+  /* line 91, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li {
+    margin: 0 8px;
+  }
+
+  /* line 93, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li:last-child {
+    margin: 0 0 0 4px;
+  }
+
+  /* line 95, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > a {
+    font-size: 11px;
+    line-height: 52px;
+    padding: 0;
+  }
+
+  /* line 97, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav a {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    margin: 20% 0 0;
+  }
+
+  /* line 99, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-prev {
+    left: 0;
+  }
+
+  /* line 101, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-next {
+    right: 0;
+  }
+
+  /* line 103, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banouter {
+    min-height: 480px;
+  }
+
+  /* line 105, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout {
+    margin: 80px auto 0;
+  }
+
+  /* line 107, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  /* line 109, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h3 {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 0 10px 0px;
+  }
+
+  /* line 111, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h4 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  /* line 113, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .btnarea {
+    margin: 10px 0 0;
+  }
+
+  /* line 115, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout a {
+    padding: 0 20px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+
+  /* line 117, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea {
+    background-size: cover;
+    padding-top: 40px;
+  }
+
+  /* line 119, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 {
+    font-size: 26px;
+    line-height: 44px;
+    margin: 0 0 25px;
+  }
+
+  /* line 121, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 strong {
+    font-size: 50px;
+    line-height: 54px;
+  }
+
+  /* line 123, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerarea {
+    padding: 0px 0 20px;
+  }
+
+  /* line 125, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea {
+    width: 100%;
+  }
+
+  /* line 127, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea {
+    padding: 60px 0;
+  }
+
+  /* line 129, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* line 131, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea textarea {
+    height: 73px;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  /* line 139, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .headerouter {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 0;
+  }
+
+  /* line 141, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topheader {
+    text-align: center;
+    position: relative;
+  }
+
+  /* line 143, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon {
+    float: none;
+    margin: 15px auto;
+    overflow: hidden;
+  }
+
+  /* line 145, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    left: auto;
+  }
+
+  /* line 147, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .toprgt {
+    float: none;
+  }
+
+  /* line 149, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea {
+    float: none;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  /* line 151, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:first-child {
+    border-left: 0;
+  }
+
+  /* line 153, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:last-child {
+    border-right: 0;
+  }
+
+  /* line 155, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav {
+    float: none;
+    display: block;
+    background: #222222;
+    padding: 10px;
+    margin: 1px 0;
+  }
+
+  /* line 157, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    width: 100%;
+    padding: 9px 14px;
+    background: #fdc01c;
+  }
+
+  /* line 159, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .sr-only {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  /* line 162, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle .icon-bar {
+    float: right;
+    clear: right;
+    width: 24px;
+    height: 3px;
+  }
+
+  /* line 164, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav .sr-only {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  /* line 166, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar {
+    display: block;
+    min-height: 20px;
+    float: none;
+  }
+
+  /* line 168, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    margin: 0 0;
+    float: right;
+  }
+
+  /* line 170, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li {
+    padding: 5px 0;
+    margin: 0px 0;
+  }
+
+  /* line 172, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li > a {
+    text-align: left;
+  }
+
+  /* line 174, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-nav {
+    display: block;
+    margin: 0 0;
+    border-top: 1px solid #111111;
+  }
+
+  /* line 176, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+  /* line 178, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    background: #cd0b0b;
+  }
+
+  /* line 180, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li {
+    float: none;
+    line-height: 40px;
+    margin: 0 0;
+    border-bottom: 1px solid #a40606 !important;
+  }
+
+  /* line 182, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li:last-child {
+    margin: 0 0;
+  }
+
+  /* line 184, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li > a {
+    color: #ffffff;
+    line-height: 40px;
+    display: block;
+    text-align: left;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  /* line 186, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover {
+    background: #ffffff;
+  }
+
+  /* line 188, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover > a {
+    color: #000000;
+  }
+
+  /* line 190, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li.selected > a {
+    color: #000000;
+    background: #ffffff;
+    border-bottom: 4px solid #a40606;
+  }
+
+  /* line 192, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > ul {
+    position: relative;
+  }
+
+  /* line 194, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > a {
+    border-bottom: 0;
+  }
+
+  /* line 196, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav a {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    margin: 15% 0 0;
+  }
+
+  /* line 198, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-prev {
+    left: 0;
+  }
+
+  /* line 200, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-next {
+    right: 0;
+  }
+
+  /* line 202, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banouter {
+    min-height: 480px;
+  }
+
+  /* line 204, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout {
+    margin: 20px auto 0;
+  }
+
+  /* line 206, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  /* line 208, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h3 {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 0 10px 0px;
+  }
+
+  /* line 210, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h4 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  /* line 212, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .btnarea {
+    margin: 10px 0 0;
+  }
+
+  /* line 214, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout a {
+    padding: 0 20px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+
+  /* line 216, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-control-nav {
+    bottom: 5px;
+  }
+
+  /* line 218, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea {
+    padding: 50px 0 20px;
+  }
+
+  /* line 220, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea p {
+    padding: 0 0;
+  }
+
+  /* line 222, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea {
+    background-size: cover;
+    padding-top: 40px;
+  }
+
+  /* line 224, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 {
+    font-size: 26px;
+    line-height: 44px;
+    margin: 0 0 25px;
+  }
+
+  /* line 226, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 strong {
+    font-size: 50px;
+    line-height: 54px;
+  }
+
+  /* line 228, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    padding: 48px 0 0;
+  }
+
+  /* line 230, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    text-align: center;
+  }
+
+  /* line 232, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .part-box {
+    height: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  /* line 234, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter {
+    padding: 50px 0;
+  }
+
+  /* line 236, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter h2 {
+    font-size: 39px;
+    line-height: 45px;
+    margin: 0 0px 30px;
+  }
+
+  /* line 238, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea {
+    width: 100%;
+  }
+
+  /* line 240, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea figure {
+    width: 90%;
+  }
+
+  /* line 242, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea .gallery-01 {
+    margin-top: 10px !important;
+  }
+
+  /* line 244, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  /* line 246, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  /* line 248, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .map {
+    width: 380px;
+    height: 286px;
+    margin: 0 auto;
+  }
+
+  /* line 250, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .inputarea {
+    padding: 40px 10px 50px;
+  }
+
+  /* line 252, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h5 {
+    text-align: left;
+  }
+
+  /********** Inner pages ************/
+  /* line 257, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .innerpgcont {
+    padding: 40px 0;
+  }
+
+  /* line 259, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .boxdivider {
+    border-right: 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+  /* line 267, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .headerouter {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 0;
+  }
+
+  /* line 269, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topheader {
+    text-align: center;
+    position: relative;
+  }
+
+  /* line 271, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon {
+    float: none;
+    margin: 15px auto;
+    overflow: hidden;
+  }
+
+  /* line 273, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    left: auto;
+  }
+
+  /* line 275, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .toprgt {
+    float: none;
+  }
+
+  /* line 277, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea {
+    float: none;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  /* line 279, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:first-child {
+    border-left: 0;
+  }
+
+  /* line 281, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:last-child {
+    border-right: 0;
+  }
+
+  /* line 283, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav {
+    float: none;
+    display: block;
+    background: #222222;
+    padding: 10px;
+    margin: 1px 0;
+  }
+
+  /* line 285, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    width: 100%;
+    padding: 9px 14px;
+    background: #fdc01c;
+  }
+
+  /* line 287, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .sr-only {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  /* line 290, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle .icon-bar {
+    float: right;
+    clear: right;
+    width: 24px;
+    height: 3px;
+  }
+
+  /* line 292, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav .sr-only {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  /* line 294, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar {
+    display: block;
+    min-height: 20px;
+    float: none;
+  }
+
+  /* line 296, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    margin: 0 0;
+    float: right;
+  }
+
+  /* line 298, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li {
+    padding: 5px 0;
+    margin: 0px 0;
+  }
+
+  /* line 300, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li > a {
+    text-align: left;
+  }
+
+  /* line 302, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-nav {
+    display: block;
+    margin: 0 0;
+    border-top: 1px solid #111111;
+  }
+
+  /* line 304, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+  /* line 306, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    background: #cd0b0b;
+  }
+
+  /* line 308, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li {
+    float: none;
+    line-height: 40px;
+    margin: 0 0;
+    border-bottom: 1px solid #a40606 !important;
+  }
+
+  /* line 310, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li:last-child {
+    margin: 0 0;
+  }
+
+  /* line 312, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li > a {
+    color: #ffffff;
+    line-height: 40px;
+    display: block;
+    text-align: left;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  /* line 314, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover {
+    background: #ffffff;
+  }
+
+  /* line 316, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover > a {
+    color: #000000;
+  }
+
+  /* line 318, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li.selected > a {
+    color: #000000;
+    background: #ffffff;
+    border-bottom: 4px solid #a40606;
+  }
+
+  /* line 320, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > ul {
+    position: relative;
+  }
+
+  /* line 322, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > a {
+    border-bottom: 0;
+  }
+
+  /* line 324, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav a {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    margin: 15% 0 0;
+  }
+
+  /* line 326, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-prev {
+    left: 1px;
+  }
+
+  /* line 328, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-next {
+    right: 1px;
+  }
+
+  /* line 330, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banouter {
+    min-height: 480px;
+  }
+
+  /* line 332, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout {
+    margin: 10px auto 0;
+  }
+
+  /* line 334, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0px;
+  }
+
+  /* line 336, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h3 {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0 0 5px 0px;
+  }
+
+  /* line 338, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* line 340, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .btnarea {
+    margin: 10px 0 0;
+  }
+
+  /* line 342, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout a {
+    padding: 0 20px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+
+  /* line 344, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-control-nav {
+    bottom: 5px;
+  }
+
+  /* line 346, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea {
+    padding: 50px 0 20px;
+  }
+
+  /* line 348, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea p {
+    padding: 0 0;
+  }
+
+  /* line 350, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea {
+    background-size: cover;
+    padding-top: 50px;
+  }
+
+  /* line 352, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0 0 25px;
+  }
+
+  /* line 354, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 strong {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  /* line 356, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea a {
+    padding: 0 30px;
+    line-height: 70px;
+    font-size: 24px;
+  }
+
+  /* line 358, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea a img {
+    margin: 0 0 0 15px;
+  }
+
+  /* line 360, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    padding: 48px 0 0;
+  }
+
+  /* line 362, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    text-align: center;
+  }
+
+  /* line 364, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .part-box {
+    height: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  /* line 366, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter {
+    padding: 50px 0;
+  }
+
+  /* line 368, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter h2 {
+    font-size: 39px;
+    line-height: 45px;
+    margin: 0 0px 30px;
+  }
+
+  /* line 370, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea {
+    width: 100%;
+  }
+
+  /* line 372, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea figure {
+    width: 90%;
+  }
+
+  /* line 374, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea .gallery-01 {
+    margin-top: 10px !important;
+  }
+
+  /* line 376, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  /* line 378, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .map {
+    width: 380px;
+    height: 286px;
+    margin: 0 auto;
+  }
+
+  /* line 380, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  /* line 382, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .inputarea {
+    padding: 40px 10px 50px;
+  }
+
+  /* line 384, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h5 {
+    text-align: left;
+  }
+
+  /********** Inner pages ************/
+  /* line 389, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .innerpgcont {
+    padding: 40px 0;
+  }
+
+  /* line 391, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .boxdivider {
+    border-right: 0;
+  }
+
+  /********** Login page ***********/
+  /* line 398, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .modal-dialog {
+    margin: 30px auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* line 408, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .headerouter {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 0;
+  }
+
+  /* line 410, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topheader {
+    text-align: center;
+    position: relative;
+  }
+
+  /* line 412, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .topsocialicon {
+    float: none;
+    margin: 15px auto;
+    overflow: hidden;
+  }
+
+  /* line 414, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    left: auto;
+  }
+
+  /* line 416, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea {
+    float: none;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  /* line 418, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:first-child {
+    border-left: 0;
+  }
+
+  /* line 420, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .loginregarea li:last-child {
+    border-right: 0;
+  }
+
+  /* line 422, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav {
+    float: none;
+    display: block;
+    background: #222222;
+    padding: 10px;
+    margin: 1px 0;
+  }
+
+  /* line 424, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    width: 100%;
+    padding: 9px 14px;
+    background: #fdc01c;
+  }
+
+  /* line 426, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .sr-only {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  /* line 429, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle .icon-bar {
+    float: right;
+    clear: right;
+    width: 24px;
+    height: 3px;
+  }
+
+  /* line 431, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  nav .sr-only {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  /* line 433, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar {
+    display: block;
+    min-height: 20px;
+    float: none;
+  }
+
+  /* line 435, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-toggle {
+    margin: 0 0;
+    float: right;
+  }
+
+  /* line 437, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li {
+    padding: 5px 0;
+    margin: 0px 0;
+  }
+
+  /* line 439, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .nav > div > ul > li > a {
+    text-align: left;
+  }
+
+  /* line 441, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-nav {
+    display: block;
+    margin: 0 0;
+    border-top: 1px solid #111111;
+  }
+
+  /* line 443, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+  /* line 445, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    background: #cd0b0b;
+  }
+
+  /* line 447, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li {
+    float: none;
+    line-height: 40px;
+    margin: 0 0;
+    border-bottom: 1px solid #a40606 !important;
+  }
+
+  /* line 449, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li:last-child {
+    margin: 0 0;
+  }
+
+  /* line 451, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li > a {
+    color: #ffffff;
+    line-height: 40px;
+    display: block;
+    text-align: left;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  /* line 453, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover {
+    background: #ffffff;
+  }
+
+  /* line 455, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-collapse > .nav > div > ul > li:hover > a {
+    color: #000000;
+  }
+
+  /* line 457, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li.selected > a {
+    color: #000000;
+    background: #ffffff;
+    border-bottom: 4px solid #a40606;
+  }
+
+  /* line 459, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > ul {
+    position: relative;
+  }
+
+  /* line 461, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .navbar-default .navbar-nav > div > ul > li > a {
+    border-bottom: 0;
+  }
+
+  /* line 463, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav a {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    margin: 15% 0 0;
+  }
+
+  /* line 465, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-prev {
+    left: 10px;
+  }
+
+  /* line 467, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .flex-direction-nav .flex-next {
+    right: 10px;
+  }
+
+  /* line 469, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .banouter {
+    position: relative;
+    min-height: 480px;
+  }
+
+  /* line 471, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  /* line 473, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h2 {
+    font-size: 55px;
+    line-height: 58px;
+    margin: 0 0px 10px;
+  }
+
+  /* line 475, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bandescout h3 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  /* line 477, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea {
+    padding: 50px 0 20px;
+  }
+
+  /* line 479, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .csarea p {
+    padding: 0 0;
+  }
+
+  /* line 481, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea {
+    background-size: cover;
+    padding-top: 50px;
+  }
+
+  /* line 483, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 25px;
+  }
+
+  /* line 485, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea h2 strong {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  /* line 487, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea a {
+    padding: 0 18px;
+    line-height: 60px;
+    font-size: 18px;
+  }
+
+  /* line 489, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .bgimgarea a img {
+    margin: 0 0 0 5px;
+  }
+
+  /* line 491, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    padding: 48px 0 0;
+  }
+
+  /* line 493, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .partnerouter {
+    text-align: center;
+  }
+
+  /* line 495, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .part-box {
+    height: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  /* line 497, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter {
+    padding: 50px 0;
+  }
+
+  /* line 499, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoouter h2 {
+    font-size: 39px;
+    line-height: 45px;
+    margin: 0 0px 30px;
+  }
+
+  /* line 501, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea {
+    width: 100%;
+  }
+
+  /* line 503, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea figure {
+    width: 90%;
+  }
+
+  /* line 505, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .testimoarea .gallery-01 {
+    margin-top: 10px !important;
+  }
+
+  /* line 507, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  /* line 509, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  /* line 511, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .inputarea {
+    padding: 40px 10px 50px;
+  }
+
+  /* line 513, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .contactarea h5 {
+    text-align: left;
+  }
+
+  /********** Inner pages ************/
+  /* line 518, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .innerpgcont {
+    padding: 40px 0;
+  }
+
+  /* line 520, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea {
+    margin: 0px 0;
+  }
+
+  /* line 522, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea h2 {
+    font-size: 34px;
+  }
+
+  /* line 524, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea table td a {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+
+  /* line 526, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea .table > tbody > tr > td {
+    font-size: 19px;
+  }
+
+  /* line 528, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .mainhdarea .table > tbody > tr > td:first-child {
+    font-size: 21px;
+  }
+
+  /* line 530, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .rgtside h3 {
+    font-size: 24px;
+  }
+
+  /* line 532, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .rgtside h3 span {
+    font-size: 18px;
+  }
+
+  /* line 534, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .fmboxwrap input {
+    width: 58%;
+  }
+
+  /* line 536, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .boxdivider {
+    border-right: 0;
+  }
+
+  /********** Login page ***********/
+  /* line 541, /home/anurag/projects/nutri/nutri/app/assets/stylesheets/responsive.scss */
+  .modal-dialog {
+    margin: 30px auto;
+  }
+}
