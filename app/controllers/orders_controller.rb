@@ -3,7 +3,8 @@ class OrdersController < ApplicationController
   layout "client"
 
   def index
-
+  	@user = User.find(params[:client_id])
+  	@orders = @user.orders
   end	
 
   def checkout
@@ -18,7 +19,7 @@ class OrdersController < ApplicationController
 	def payu_return
 		@services = Service.all
 		@service = Service.find(session[:cart]["ser_id"])
-  	@package = @service.packages.find(session[:cart]["pckid"])
+  		@package = @service.packages.find(session[:cart]["pckid"])
 		notification = PayuIndia::Notification.new(request.query_string, options = {:key => 'YOUR_KEY', :salt => 'YOUR_SALT', :params => params})
 
 		if notification.present?      

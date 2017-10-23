@@ -2763,3 +2763,29 @@ html[xmlns] .slides {
     /* width: 190px;
     height: 70px; */
 }
+
+.anchor-span {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #727272;
+    background: #ffffff;
+    border: 1px solid #727272;
+    border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: 'HelveticaNeueLTStd-LtCn';
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-success {
+    background-color: #16a61e !important;
+    border-color: #16a61e !important;
+}
