@@ -12,9 +12,10 @@ Rails.application.routes.draw do
   #end
 
   resources :users , :as => :clients do
-    resources :orders, only: [:index, :new, :create, :edit, :update] do
+    resources :orders do
       collection do
-        get :checkout
+        #get :checkout
+        #get :payu_return
       end
     end  
   end  
@@ -58,6 +59,8 @@ Rails.application.routes.draw do
   get 'blog_post/:id', to: 'home#post', as: 'blog_post'
 
   #match '/payu_callback'=>'carts#payu_return'
+
+  get 'orders/checkout', to: 'orders#checkout'#, as: 'blog_post'
 
   post '/payu_callback', to: 'orders#payu_return'
   
