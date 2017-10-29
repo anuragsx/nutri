@@ -29,6 +29,8 @@ class OrdersController < ApplicationController
 		      											:card_holder_name => params['name_on_card'], 
 		      											:order_number => notification.params["txnid"],
 		      											:user_id => current_user.id,
+		      											:service_id => @service.id,
+		     											:package_id => @package.id,
 		      											:order_status => true)
 		      #flash[:success] = "Thanks to availing the service. Your diet chart will be uploaded soon."
 		      #redirect_to checkout_orders_path(ser_id: @service.id, pckid: @package.id)
@@ -37,6 +39,8 @@ class OrdersController < ApplicationController
 		      											:card_holder_name => notification.params['name_on_card'], 
 		      											:order_number => notification.params["txnid"],
 		      											:user_id => current_user.id,
+		      											:service_id => @service.id,
+		     											:package_id => @package.id,		      											
 		      											:order_status => false)		         
 		      render :text => "Order Failed! #{notification.message}"
 		    end

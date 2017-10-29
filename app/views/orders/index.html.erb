@@ -11,19 +11,19 @@
                     <thead>
                         <tr>
                             <th>S. No.</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone No.</th>
-                            <th>Actions</th>
+                            <th>Service</th>
+                            <th>Package</th>
+                            <th>Payment Status</th>
+                            <th>Amount Received</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <% #@users.each_with_index do |user, index| %>
+                    <% @orders.each_with_index do |order, index| %>
                       <tr>
-                        <td><%#= index + 1 %></td>
-                        <td><%#= user.full_name %></td>
-                        <td><%#= user.email %></td>
-                        <td><%#= user.phone_no %></td>
+                        <td><%= index + 1 %></td>
+                        <td><%= order.service_name %></td>
+                        <td><%= order.package_name %></td>
+                        <td><%= order.total_amount %></td>
                         <td>
                             <%# link_to '<button type="button" class="btn btn-primary">Profile
                             </button>'.html_safe, '#'%>&nbsp;&nbsp;
@@ -36,7 +36,7 @@
                             &nbsp;&nbsp;
                         </td>
                       </tr>
-                    <% #end %>
+                    <% end %>
                     </tbody>
                 </table>
 
